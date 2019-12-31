@@ -5,14 +5,14 @@
   DTS:CreationName="SSIS.Package.3"
   DTS:CreatorComputerName="DPELI0TEST2"
   DTS:CreatorName="PELI\ops79rr10"
-  DTS:DTSID="{47AD319C-FFB0-470F-A1C8-45C98646D3B0}"
+  DTS:DTSID="{40B5854A-A9FC-4A63-9870-E52ACA308B16}"
   DTS:ExecutableType="SSIS.Package.3"
   DTS:LastModifiedProductVersion="15.0.1301.433"
   DTS:LocaleID="10250"
-  DTS:ObjectName="Package"
+  DTS:ObjectName="Cruzado"
   DTS:PackageType="5"
-  DTS:VersionBuild="49"
-  DTS:VersionGUID="{683B7ABA-12DB-48FD-8E20-B59E1642F9EE}">
+  DTS:VersionBuild="52"
+  DTS:VersionGUID="{21CC6BFE-22AA-41F0-A773-04648CE09B5F}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">6</DTS:Property>
   <DTS:ConnectionManagers>
@@ -45,7 +45,7 @@
         DTS:Name="ExcelFilePath">@[User::vCzFileName]</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=;Extended Properties=&quot;Excel 12.0 XML;HDR=NO&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=;Extended Properties=&quot;EXCEL 12.0 XML;HDR=NO&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -57,7 +57,7 @@
         DTS:Name="ExcelFilePath">@[User::vCzFileName]</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=;Extended Properties=&quot;Excel 12.0 XML;HDR=NO&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=;Extended Properties=&quot;EXCEL 12.0 XML;HDR=NO&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -69,7 +69,7 @@
         DTS:Name="ExcelFilePath">@[User::vCzFileName]</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=;Extended Properties=&quot;Excel 12.0 XML;HDR=NO&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=;Extended Properties=&quot;EXCEL 12.0 XML;HDR=NO&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -94,7 +94,7 @@
       DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
       DTS:LocaleID="-1"
       DTS:ObjectName="Cubo HFC"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -110,7 +110,7 @@
       DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
       DTS:LocaleID="-1"
       DTS:ObjectName="Cubo Postpago"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -13273,6 +13273,14 @@
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
+          Size="133,42"
+          Id="Package\Cubo HFC"
+          TopLeft="698,498" />
+        <NodeLayout
+          Size="157,42"
+          Id="Package\Cubo Postpago"
+          TopLeft="461,500" />
+        <NodeLayout
           Size="105,42"
           Id="Package\Foreach Loop Container\ADM"
           TopLeft="456,208" />
@@ -13453,14 +13461,6 @@
           Size="667,326"
           Id="Package\Foreach Loop Container"
           TopLeft="320,114" />
-        <NodeLayout
-          Size="157,42"
-          Id="Package\Cubo Postpago"
-          TopLeft="461,500" />
-        <NodeLayout
-          Size="133,42"
-          Id="Package\Cubo HFC"
-          TopLeft="698,498" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
           TopLeft="763.916666666667,440">
