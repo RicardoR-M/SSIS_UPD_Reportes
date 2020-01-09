@@ -11,41 +11,11 @@
   DTS:LocaleID="10250"
   DTS:ObjectName="Unificados"
   DTS:PackageType="5"
-  DTS:VersionBuild="233"
-  DTS:VersionGUID="{5FA426C9-6D85-4B57-8A79-12ACBF8EF228}">
+  DTS:VersionBuild="262"
+  DTS:VersionGUID="{5A2C7CEE-21C0-4719-A6FB-D17655161611}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">6</DTS:Property>
   <DTS:ConnectionManagers>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[10.197.128.40.FORMULARIOS_EXCEL]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{0BCF937E-AAF8-4D7C-84EC-6EBAC2D5EB61}"
-      DTS:ObjectName="10.197.128.40.FORMULARIOS_EXCEL">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=10.197.128.40;Initial Catalog=FORMULARIOS_EXCEL;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[10.197.128.40.FORMULARIOS_EXCEL 1]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{C8016A3A-6DE6-4812-8B8A-CC8F0DEFED4D}"
-      DTS:ObjectName="10.197.128.40.FORMULARIOS_EXCEL 1">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=10.197.128.40;Initial Catalog=FORMULARIOS_EXCEL;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[10.197.128.40.FORMULARIOS_EXCEL 2]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{15F737B3-537C-4F89-B385-BF4408386142}"
-      DTS:ObjectName="10.197.128.40.FORMULARIOS_EXCEL 2">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=10.197.128.40;Initial Catalog=FORMULARIOS_EXCEL;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[10.197.91.1.CLARO_IN_CALIDAD]"
       DTS:CreationName="OLEDB"
@@ -67,7 +37,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAqYMxG7iqqEmYHMepEmgqtQAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAC1WLlQRh+qOXNSzKi9aJcBAAAAAASAAACgAAAAEAAAAEOLq7D5aqLttrpnKgGStNgIAAAANK2Fli00k/MUAAAAAca7k3bDsUu9kWEyBLRVT4BirIs</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAqYMxG7iqqEmYHMepEmgqtQAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAA0wj5RBkThtfcpdAj3VDmNAAAAAASAAACgAAAAEAAAACQIc+CSLCvlY6OyZljYCZwIAAAAU1pCMVu7RQMUAAAA4/dDuX3pN8UyZAZBkDRamd5N8IM</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -82,8 +52,18 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAqYMxG7iqqEmYHMepEmgqtQAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABf1F2Ki1Txz//3swJ3rECyAAAAAASAAACgAAAAEAAAAJdaB2LMBqz1H526LXqfpKkIAAAAshosCY9dFYEUAAAA3LQxHBWowly1++42nKBfzQ2BShU</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAqYMxG7iqqEmYHMepEmgqtQAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAC+qFMPQ9vc+LTBc2MrsuIUAAAAAASAAACgAAAAEAAAAI8UpSqyBbBcbFi/qYYYMW8IAAAAO5wDRP+2sa4UAAAAYwcBDSAPU9VNb9Av7t1nmedDYms</DTS:Password>
         </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[10.197.91.1.FORMULARIOS_EXCEL]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{15F737B3-537C-4F89-B385-BF4408386142}"
+      DTS:ObjectName="10.197.91.1.FORMULARIOS_EXCEL">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=10.197.91.1;Initial Catalog=FORMULARIOS_EXCEL;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -201,7 +181,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="vInformeCruzado">
       <DTS:VariableValue
-        DTS:DataType="8">Octavo Informe</DTS:VariableValue>
+        DTS:DataType="8">Primer Informe</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -231,7 +211,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="vRutaGerenciaHFC_Unificado">
       <DTS:VariableValue
-        DTS:DataType="8">Z:\\1. CALIDAD\\GERENCIA 0\\2. HFC\\01. INFORME UNIFICADO\\2019\\12. Diciembre</DTS:VariableValue>
+        DTS:DataType="8">Z:\\1. CALIDAD\\GERENCIA 0\\2. HFC\\01. INFORME UNIFICADO\\2020\\01.Enero</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -241,7 +221,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="vRutaGerenciaPostpago_Unificado">
       <DTS:VariableValue
-        DTS:DataType="8">Z:\\1. CALIDAD\\GERENCIA 0\\1. POSTPAGO\\01. INFORME UNIFICADO\\2019\\12. Diciembre</DTS:VariableValue>
+        DTS:DataType="8">Z:\\1. CALIDAD\\GERENCIA 0\\1. POSTPAGO\\01. INFORME UNIFICADO\\2020\\01.Enero</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -320,7 +300,7 @@
           DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
           DTS:LocaleID="-1"
           DTS:ObjectName="Aplica correcciones FB"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="4">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -337,7 +317,7 @@
           DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.FileSystemTask.FileSystemTask, Microsoft.SqlServer.FileSystemTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
           DTS:LocaleID="-1"
           DTS:ObjectName="Copia Reporte a Gerencia HFC"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="4">
           <DTS:Variables />
           <DTS:ObjectData>
             <FileSystemData
@@ -356,7 +336,7 @@
           DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.FileSystemTask.FileSystemTask, Microsoft.SqlServer.FileSystemTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
           DTS:LocaleID="-1"
           DTS:ObjectName="Copia Reporte a Gerencia Postpago"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="4">
           <DTS:Variables />
           <DTS:ObjectData>
             <FileSystemData
@@ -374,7 +354,7 @@
           DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ScriptTask.ScriptTask, Microsoft.SqlServer.ScriptTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
           DTS:LocaleID="-1"
           DTS:ObjectName="Enviar Correo_Feedback"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="4">
           <DTS:Variables />
           <DTS:ObjectData>
             <ScriptProject
@@ -2584,7 +2564,7 @@ AAAAAAA=</BinaryItem>
           DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
           DTS:LocaleID="-1"
           DTS:ObjectName="Trunca Tabla FB"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="4">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -2627,7 +2607,7 @@ AAAAAAA=</BinaryItem>
               DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ScriptTask.ScriptTask, Microsoft.SqlServer.ScriptTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
               DTS:LocaleID="-1"
               DTS:ObjectName="Script UPD_XL"
-              DTS:ThreadHint="0">
+              DTS:ThreadHint="4">
               <DTS:Variables />
               <DTS:ObjectData>
                 <ScriptProject
@@ -2636,15 +2616,6 @@ AAAAAAA=</BinaryItem>
                   VSTAMinorVersion="0"
                   Language="CSharp"
                   ReadOnlyVariables="User::vFBReporte">
-                  <ProjectItem
-                    Name="Properties\Settings.settings"
-                    Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
                   <ProjectItem
                     Name="Properties\Resources.resx"
                     Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -2764,6 +2735,35 @@ AAAAAAA=</BinaryItem>
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
 </root>]]></ProjectItem>
+                  <ProjectItem
+                    Name="Properties\Settings.Designer.cs"
+                    Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_58527c95cc834b9abeef23ef797e1974.Properties.Settings.get_Default():ST_58527c95cc834b9abeef23ef797e1974.Properties.Sett" +
+    "ings")]
+
+namespace ST_58527c95cc834b9abeef23ef797e1974.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}]]></ProjectItem>
                   <ProjectItem
                     Name="ST_58527c95cc834b9abeef23ef797e1974.csproj"
                     Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -3032,35 +3032,6 @@ namespace ST_58527c95cc834b9abeef23ef797e1974
   <package id="Microsoft.Office.Interop.Excel" version="15.0.4795.1000" targetFramework="net45" />
 </packages>]]></ProjectItem>
                   <ProjectItem
-                    Name="Properties\Settings.Designer.cs"
-                    Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
-//
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
-
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_58527c95cc834b9abeef23ef797e1974.Properties.Settings.get_Default():ST_58527c95cc834b9abeef23ef797e1974.Properties.Sett" +
-    "ings")]
-
-namespace ST_58527c95cc834b9abeef23ef797e1974.Properties {
-    
-    
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
-        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-        private static Settings defaultInstance = new Settings();
-        
-        public static Settings Default {
-            get {
-                return defaultInstance;
-            }
-        }
-    }
-}]]></ProjectItem>
-                  <ProjectItem
                     Name="Properties\AssemblyInfo.cs"
                     Encoding="UTF8"><![CDATA[using System.Reflection;
 using System.Runtime.CompilerServices;
@@ -3090,6 +3061,15 @@ using System.Runtime.CompilerServices;
 // by using the '*' as shown below:
 
 [assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+                  <ProjectItem
+                    Name="Properties\Settings.settings"
+                    Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
                   <ProjectItem
                     Name="Properties\Resources.Designer.cs"
                     Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -3432,7 +3412,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ScriptTask.ScriptTask, Microsoft.SqlServer.ScriptTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
           DTS:LocaleID="-1"
           DTS:ObjectName="Script UPD_XL"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="0">
           <DTS:Variables />
           <DTS:ObjectData>
             <ScriptProject
@@ -3440,6 +3420,36 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
               VSTAMajorVersion="3"
               VSTAMinorVersion="0"
               Language="CSharp">
+              <ProjectItem
+                Name="Properties\AssemblyInfo.cs"
+                Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_58527c95cc834b9abeef23ef797e1974")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_58527c95cc834b9abeef23ef797e1974")]
+[assembly: AssemblyCopyright("Copyright @  2019")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
               <ProjectItem
                 Name="Properties\Resources.resx"
                 Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -3565,35 +3575,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
 <packages>
   <package id="Microsoft.Office.Interop.Excel" version="15.0.4795.1000" targetFramework="net45" />
 </packages>]]></ProjectItem>
-              <ProjectItem
-                Name="Properties\Settings.Designer.cs"
-                Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
-//
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
-
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_58527c95cc834b9abeef23ef797e1974.Properties.Settings.get_Default():ST_58527c95cc834b9abeef23ef797e1974.Properties.Sett" +
-    "ings")]
-
-namespace ST_58527c95cc834b9abeef23ef797e1974.Properties {
-    
-    
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
-        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-        private static Settings defaultInstance = new Settings();
-        
-        public static Settings Default {
-            get {
-                return defaultInstance;
-            }
-        }
-    }
-}]]></ProjectItem>
               <ProjectItem
                 Name="ST_268afd26f73844419382400b1d41ab1f.csproj"
                 Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -3856,35 +3837,34 @@ namespace ST_58527c95cc834b9abeef23ef797e1974
 	</msb:ItemGroup>
 </c:Project>]]></ProjectItem>
               <ProjectItem
-                Name="Properties\AssemblyInfo.cs"
-                Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
+                Name="Properties\Settings.Designer.cs"
+                Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
 
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_58527c95cc834b9abeef23ef797e1974")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_58527c95cc834b9abeef23ef797e1974")]
-[assembly: AssemblyCopyright("Copyright @  2019")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_58527c95cc834b9abeef23ef797e1974.Properties.Settings.get_Default():ST_58527c95cc834b9abeef23ef797e1974.Properties.Sett" +
+    "ings")]
 
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+namespace ST_58527c95cc834b9abeef23ef797e1974.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}]]></ProjectItem>
               <ProjectItem
                 Name="Properties\Settings.settings"
                 Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
@@ -4154,7 +4134,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
           DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
           DTS:LocaleID="-1"
           DTS:ObjectName="SP Formularios Excel"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="0">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -4220,7 +4200,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
               DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.FileSystemTask.FileSystemTask, Microsoft.SqlServer.FileSystemTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
               DTS:LocaleID="-1"
               DTS:ObjectName="Copia Reporte a Gerencia HFC"
-              DTS:ThreadHint="2">
+              DTS:ThreadHint="1">
               <DTS:Variables />
               <DTS:ObjectData>
                 <FileSystemData
@@ -4239,7 +4219,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
               DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ScriptTask.ScriptTask, Microsoft.SqlServer.ScriptTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
               DTS:LocaleID="-1"
               DTS:ObjectName="Script UPD_XL_Hfc"
-              DTS:ThreadHint="2">
+              DTS:ThreadHint="1">
               <DTS:Variables />
               <DTS:ObjectData>
                 <ScriptProject
@@ -4250,35 +4230,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
                   ReadOnlyVariables="User::vBucleUnificado_HFC"
                   ReadWriteVariables="User::vReincidentesHfc_fullpath,User::vUnificadoHfc_fullpath">
                   <ProjectItem
-                    Name="Properties\AssemblyInfo.cs"
-                    Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
-
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_ac17fa9e451a4ecab0d6e318e8ec87ed")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_ac17fa9e451a4ecab0d6e318e8ec87ed")]
-[assembly: AssemblyCopyright("Copyright @  2019")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+                    Name="Properties\Settings.settings"
+                    Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
                   <ProjectItem
                     Name="Properties\Resources.resx"
                     Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -4398,6 +4357,12 @@ using System.Runtime.CompilerServices;
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
 </root>]]></ProjectItem>
+                  <ProjectItem
+                    Name="packages.config"
+                    Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<packages>
+  <package id="Microsoft.Office.Interop.Excel" version="15.0.4795.1000" targetFramework="net45" />
+</packages>]]></ProjectItem>
                   <ProjectItem
                     Name="ScriptMain.cs"
                     Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
@@ -4580,12 +4545,6 @@ namespace ST_ac17fa9e451a4ecab0d6e318e8ec87ed
 	</msb:ItemGroup>
 </c:Project>]]></ProjectItem>
                   <ProjectItem
-                    Name="packages.config"
-                    Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
-<packages>
-  <package id="Microsoft.Office.Interop.Excel" version="15.0.4795.1000" targetFramework="net45" />
-</packages>]]></ProjectItem>
-                  <ProjectItem
                     Name="Properties\Settings.Designer.cs"
                     Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
 // <auto-generated>
@@ -4706,14 +4665,35 @@ namespace ST_ac17fa9e451a4ecab0d6e318e8ec87ed.Properties {
   </ProjectExtensions>
 </Project>]]></ProjectItem>
                   <ProjectItem
-                    Name="Properties\Settings.settings"
-                    Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
+                    Name="Properties\AssemblyInfo.cs"
+                    Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_ac17fa9e451a4ecab0d6e318e8ec87ed")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_ac17fa9e451a4ecab0d6e318e8ec87ed")]
+[assembly: AssemblyCopyright("Copyright @  2019")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
                   <ProjectItem
                     Name="Properties\Resources.Designer.cs"
                     Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -5013,7 +4993,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
               DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.FileSystemTask.FileSystemTask, Microsoft.SqlServer.FileSystemTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
               DTS:LocaleID="-1"
               DTS:ObjectName="Copia Reporte a Gerencia Postpago"
-              DTS:ThreadHint="3">
+              DTS:ThreadHint="2">
               <DTS:Variables />
               <DTS:ObjectData>
                 <FileSystemData
@@ -5032,7 +5012,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
               DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ScriptTask.ScriptTask, Microsoft.SqlServer.ScriptTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
               DTS:LocaleID="-1"
               DTS:ObjectName="Script UPD_XL_Post"
-              DTS:ThreadHint="3">
+              DTS:ThreadHint="2">
               <DTS:Variables />
               <DTS:ObjectData>
                 <ScriptProject
@@ -5042,15 +5022,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                   Language="CSharp"
                   ReadOnlyVariables="User::vBucleUnificado_Postpago"
                   ReadWriteVariables="User::vReincidentesPost_fullpath,User::vUnificadoPost_fullpath">
-                  <ProjectItem
-                    Name="Properties\Settings.settings"
-                    Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
                   <ProjectItem
                     Name="Properties\Resources.resx"
                     Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -5176,6 +5147,35 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
 <packages>
   <package id="Microsoft.Office.Interop.Excel" version="15.0.4795.1000" targetFramework="net45" />
 </packages>]]></ProjectItem>
+                  <ProjectItem
+                    Name="Properties\Settings.Designer.cs"
+                    Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_ac17fa9e451a4ecab0d6e318e8ec87ed.Properties.Settings.get_Default():ST_ac17fa9e451a4ecab0d6e318e8ec87ed.Properties.Sett" +
+    "ings")]
+
+namespace ST_ac17fa9e451a4ecab0d6e318e8ec87ed.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}]]></ProjectItem>
                   <ProjectItem
                     Name="ScriptMain.cs"
                     Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
@@ -5358,34 +5358,35 @@ namespace ST_ac17fa9e451a4ecab0d6e318e8ec87ed
 	</msb:ItemGroup>
 </c:Project>]]></ProjectItem>
                   <ProjectItem
-                    Name="Properties\Settings.Designer.cs"
-                    Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
+                    Name="Properties\AssemblyInfo.cs"
+                    Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
 //
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_ac17fa9e451a4ecab0d6e318e8ec87ed")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_ac17fa9e451a4ecab0d6e318e8ec87ed")]
+[assembly: AssemblyCopyright("Copyright @  2019")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
 
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_ac17fa9e451a4ecab0d6e318e8ec87ed.Properties.Settings.get_Default():ST_ac17fa9e451a4ecab0d6e318e8ec87ed.Properties.Sett" +
-    "ings")]
-
-namespace ST_ac17fa9e451a4ecab0d6e318e8ec87ed.Properties {
-    
-    
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
-        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-        private static Settings defaultInstance = new Settings();
-        
-        public static Settings Default {
-            get {
-                return defaultInstance;
-            }
-        }
-    }
-}]]></ProjectItem>
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
                   <ProjectItem
                     Name="ST_0cf3eaea1f794fc1a67b47dabeda64ff.csproj"
                     Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -5478,35 +5479,14 @@ namespace ST_ac17fa9e451a4ecab0d6e318e8ec87ed.Properties {
   </ProjectExtensions>
 </Project>]]></ProjectItem>
                   <ProjectItem
-                    Name="Properties\AssemblyInfo.cs"
-                    Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
-
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_ac17fa9e451a4ecab0d6e318e8ec87ed")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_ac17fa9e451a4ecab0d6e318e8ec87ed")]
-[assembly: AssemblyCopyright("Copyright @  2019")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+                    Name="Properties\Settings.settings"
+                    Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
                   <ProjectItem
                     Name="Properties\Resources.Designer.cs"
                     Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -5780,7 +5760,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.FileSystemTask.FileSystemTask, Microsoft.SqlServer.FileSystemTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
           DTS:LocaleID="-1"
           DTS:ObjectName="Copia reporte de reincidentes a CSR"
-          DTS:ThreadHint="4">
+          DTS:ThreadHint="2">
           <DTS:Variables />
           <DTS:ObjectData>
             <FileSystemData
@@ -5798,7 +5778,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ScriptTask.ScriptTask, Microsoft.SqlServer.ScriptTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
           DTS:LocaleID="-1"
           DTS:ObjectName="Enviar Correo_HFC"
-          DTS:ThreadHint="2">
+          DTS:ThreadHint="1">
           <DTS:Variables />
           <DTS:ObjectData>
             <ScriptProject
@@ -5926,92 +5906,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
 </root>]]></ProjectItem>
-              <ProjectItem
-                Name="ST_112d1cab1b06438ebd54df5cd7cb3f11.csproj"
-                Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup>
-    <ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>8.0.30703</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{5BC635D8-F206-423E-86D0-AE29B6AD572C}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ST_112d1cab1b06438ebd54df5cd7cb3f11</RootNamespace>
-    <AssemblyName>ST_112d1cab1b06438ebd54df5cd7cb3f11</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
-    <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
-    <TargetFrameworkProfile></TargetFrameworkProfile>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>.\bin\Debug\</OutputPath>
-    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-    <DebugSymbols>false</DebugSymbols>
-    <Optimize>true</Optimize>
-    <OutputPath>.\bin\Release\</OutputPath>
-    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Xml" />
-    <Reference Include="Microsoft.SqlServer.ManagedDTS, Version=11.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91" />
-    <Reference Include="Microsoft.SqlServer.ScriptTask, Version=11.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91" />
-  </ItemGroup>
-  <ItemGroup>
-    <AppDesigner Include="Properties\" />
-    <Compile Include="Properties\AssemblyInfo.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Settings.settings</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptMain.cs">
-      <SubType>Code</SubType>
-    </Compile>
-  </ItemGroup>
-  <!-- Include the build rules for a C# project.-->
-  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <ProjectExtensions>
-    <VisualStudio>
-      <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
-        <ProjectProperties HostName="VSTAHostName" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" />
-        <Host Name="ScriptTask" />
-        <ProjectClient>
-          <HostIdentifier>SSIS_ST110</HostIdentifier>
-        </ProjectClient>
-      </FlavorProperties>
-    </VisualStudio>
-  </ProjectExtensions>
-</Project>]]></ProjectItem>
               <ProjectItem
                 Name="Properties\Settings.Designer.cs"
                 Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -6145,7 +6039,7 @@ namespace ST_112d1cab1b06438ebd54df5cd7cb3f11
             string informeCruzado = Dts.Variables["User::vInformeCruzado"].Value.ToString();
             string sSubject = "Reporte unificado de Calidad HFC - "+sNmes+" (al " + sDia + "/" + sMes + ")";
             // OLD string sBody = "<html xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:w=\"urn:schemas-microsoft-com:office:word\" xmlns:m=\"http://schemas.microsoft.com/office/2004/12/omml\" xmlns=\"http://www.w3.org/TR/REC-html40\">  <head> <meta http-equiv=Content-Type content=\"text/html; charset=utf-8\"> <meta name=Generator content=\"Microsoft Word 15 (filtered medium)\"> <style> <!-- /* Font Definitions */  @font-face { font-family: \"Cambria Math\"; panose-1: 2 4 5 3 5 4 6 3 2 4; }  @font-face { font-family: Calibri; panose-1: 2 15 5 2 2 2 4 3 2 4; } /* Style Definitions */  p.MsoNormal, li.MsoNormal, div.MsoNormal { margin: 0cm; margin-bottom: .0001pt; font-size: 12.0pt; font-family: \"Times New Roman\", \"serif\"; }  a:link, span.MsoHyperlink { mso-style-priority: 99; color: blue; text-decoration: underline; }  a:visited, span.MsoHyperlinkFollowed { mso-style-priority: 99; color: purple; text-decoration: underline; }  span.EstiloCorreo17 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo18 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo19 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo20 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo21 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo22 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo23 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo24 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo25 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo26 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo27 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo28 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo29 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo30 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo31 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo32 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo33 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo34 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo35 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo36 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo37 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo38 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo39 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo40 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo41 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo42 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo43 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo44 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo45 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo46 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo47 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: windowtext; }  span.EstiloCorreo48 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo49 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo50 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo51 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo52 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo53 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo54 { mso-style-type: personal-reply; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  .MsoChpDefault { mso-style-type: export-only; font-size: 10.0pt; }  @page WordSection1 { size: 612.0pt 792.0pt; margin: 70.85pt 3.0cm 70.85pt 3.0cm; }  div.WordSection1 { page: WordSection1; }  --> </style> <!--[if gte mso 9]><xml> <o:shapedefaults v:ext=\"edit\" spidmax=\"1026\" /> </xml><![endif]--> <!--[if gte mso 9]><xml> <o:shapelayout v:ext=\"edit\"> <o:idmap v:ext=\"edit\" data=\"1\" /> </o:shapelayout></xml><![endif]--> </head>  <body lang=ES-PE link=blue vlink=purple> <div class=WordSection1> <p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>Buen día.<o:p></o:p></span></p> &nbsp;<p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>Se envía el reporte de calidad HFC en el cual se unifican los siguientes reportes de calidad:<o:p></o:p></span></p> &nbsp;<p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>Reporte de calidad Interna Ejecutivos de calidad: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style='color:#1F497D'>Actualizado al " + sDia + "/" + sMes + ".</span> <o:p></o:p> </span> </p> <p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>Reporte de calidad Interna Evaluaciones supervisores: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style='color:#1F497D'>Actualizado al " + sDia+"/"+sMes+".</span> <o:p></o:p> </span> </p> <p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>Reporte de monitoreo Cruzado <span style='color:#1F497D'>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "+informeCruzado+".</span> <o:p></o:p> </span> </p> &nbsp;<p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>Adicionalmente, se comparte el reporte de reincidentes.<o:p></o:p></span></p> &nbsp;<p class=MsoNormal><b><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\";color:#1F497D'>Ambos reportes se encuentran ubicados en la siguiente ruta:<o:p></o:p></span></b></p> <p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\";color:#1F497D'><a href=\"file:///\\\\192.168.150.5\\GerenciaCX\\1.%20CALIDAD\\GERENCIA%200\\2.%20HFC\\01.%20INFORME%20UNIFICADO\\2019\\11.%20Noviembre\\\">\\\\192.168.150.5\\GerenciaCX\\1. CALIDAD\\GERENCIA 0\\2. HFC\\01. INFORME UNIFICADO\\2019\\11. Noviembre</a><o:p></o:p></span></p> &nbsp;<p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>Saludos,<o:p></o:p></span></p> <p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>***REMOVED***<o:p></o:p></span></p> </div> </body>  </html>";
-            string sBody = "<html xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:w=\"urn:schemas-microsoft-com:office:word\" xmlns:m=\"http://schemas.microsoft.com/office/2004/12/omml\" xmlns=\"http://www.w3.org/TR/REC-html40\">  <head> <meta http-equiv=Content-Type content=\"text/html; charset=utf-8\"> <meta name=Generator content=\"Microsoft Word 15 (filtered medium)\"> <style> <!-- /* Font Definitions */  @font-face { font-family: \"Cambria Math\"; panose-1: 2 4 5 3 5 4 6 3 2 4; }  @font-face { font-family: Calibri; panose-1: 2 15 5 2 2 2 4 3 2 4; } /* Style Definitions */  p.MsoNormal, li.MsoNormal, div.MsoNormal { margin: 0cm; margin-bottom: .0001pt; font-size: 12.0pt; font-family: \"Times New Roman\", \"serif\"; }  a:link, span.MsoHyperlink { mso-style-priority: 99; color: blue; text-decoration: underline; }  a:visited, span.MsoHyperlinkFollowed { mso-style-priority: 99; color: purple; text-decoration: underline; }  span.EstiloCorreo17 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo18 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo19 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo20 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo21 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo22 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo23 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo24 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo25 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo26 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo27 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo28 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo29 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo30 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo31 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo32 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo33 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo34 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo35 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo36 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo37 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo38 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo39 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo40 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo41 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo42 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo43 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo44 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo45 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo46 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo47 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: windowtext; }  span.EstiloCorreo48 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo49 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo50 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo51 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo52 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo53 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo54 { mso-style-type: personal-reply; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  .MsoChpDefault { mso-style-type: export-only; font-size: 10.0pt; }  @page WordSection1 { size: 612.0pt 792.0pt; margin: 70.85pt 3.0cm 70.85pt 3.0cm; }  div.WordSection1 { page: WordSection1; }  --> </style> <!--[if gte mso 9]><xml> <o:shapedefaults v:ext=\"edit\" spidmax=\"1026\" /> </xml><![endif]--> <!--[if gte mso 9]><xml> <o:shapelayout v:ext=\"edit\"> <o:idmap v:ext=\"edit\" data=\"1\" /> </o:shapelayout></xml><![endif]--> </head>  <body lang=ES-PE link=blue vlink=purple> <div class=WordSection1> <p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>Buen día.<o:p></o:p></span></p> &nbsp;<p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>Se envía el reporte de calidad HFC en el cual se unifican los siguientes reportes de calidad:<o:p></o:p></span></p> &nbsp;<p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>Reporte de calidad Interna Ejecutivos de calidad: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style='color:#1F497D'>Actualizado al " + sDia + "/" + sMes + ".</span> <o:p></o:p> </span> </p> <p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>Reporte de calidad Interna Evaluaciones supervisores: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style='color:#1F497D'>Actualizado al " + sDia + "/" + sMes + ".</span> <o:p></o:p> </span> </p> <p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>Reporte de monitoreo Cruzado <span style='color:#1F497D'>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; " + informeCruzado + ".</span> <o:p></o:p> </span> </p> &nbsp;<p class=MsoNormal><b><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\";color:#1F497D'>Adicionalmente el reporte se encuentra ubicado en la siguiente ruta:<o:p></o:p></span></b></p> <p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\";color:#1F497D'><a href=\"file:///\\\\192.168.150.5\\GerenciaCX\\1.%20CALIDAD\\GERENCIA%200\\2.%20HFC\\01.%20INFORME%20UNIFICADO\\2019\\12.%20Diciembre\\\">\\\\192.168.150.5\\GerenciaCX\\1. CALIDAD\\GERENCIA 0\\2. HFC\\01. INFORME UNIFICADO\\2019\\12. Diciembre</a><o:p></o:p></span></p> &nbsp;<p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>Saludos,<o:p></o:p></span></p> <p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>***REMOVED***<o:p></o:p></span></p> </div> </body>  </html>";
+            string sBody = "<html xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:w=\"urn:schemas-microsoft-com:office:word\" xmlns:m=\"http://schemas.microsoft.com/office/2004/12/omml\" xmlns=\"http://www.w3.org/TR/REC-html40\">  <head> <meta http-equiv=Content-Type content=\"text/html; charset=utf-8\"> <meta name=Generator content=\"Microsoft Word 15 (filtered medium)\"> <style> <!-- /* Font Definitions */  @font-face { font-family: \"Cambria Math\"; panose-1: 2 4 5 3 5 4 6 3 2 4; }  @font-face { font-family: Calibri; panose-1: 2 15 5 2 2 2 4 3 2 4; } /* Style Definitions */  p.MsoNormal, li.MsoNormal, div.MsoNormal { margin: 0cm; margin-bottom: .0001pt; font-size: 12.0pt; font-family: \"Times New Roman\", \"serif\"; }  a:link, span.MsoHyperlink { mso-style-priority: 99; color: blue; text-decoration: underline; }  a:visited, span.MsoHyperlinkFollowed { mso-style-priority: 99; color: purple; text-decoration: underline; }  span.EstiloCorreo17 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo18 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo19 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo20 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo21 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo22 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo23 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo24 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo25 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo26 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo27 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo28 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo29 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo30 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo31 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo32 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo33 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo34 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo35 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo36 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo37 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo38 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo39 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo40 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo41 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo42 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo43 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo44 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo45 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo46 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo47 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: windowtext; }  span.EstiloCorreo48 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo49 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo50 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo51 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo52 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo53 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo54 { mso-style-type: personal-reply; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  .MsoChpDefault { mso-style-type: export-only; font-size: 10.0pt; }  @page WordSection1 { size: 612.0pt 792.0pt; margin: 70.85pt 3.0cm 70.85pt 3.0cm; }  div.WordSection1 { page: WordSection1; }  --> </style> <!--[if gte mso 9]><xml> <o:shapedefaults v:ext=\"edit\" spidmax=\"1026\" /> </xml><![endif]--> <!--[if gte mso 9]><xml> <o:shapelayout v:ext=\"edit\"> <o:idmap v:ext=\"edit\" data=\"1\" /> </o:shapelayout></xml><![endif]--> </head>  <body lang=ES-PE link=blue vlink=purple> <div class=WordSection1> <p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>Buen día.<o:p></o:p></span></p> &nbsp;<p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>Se envía el reporte de calidad HFC en el cual se unifican los siguientes reportes de calidad:<o:p></o:p></span></p> &nbsp;<p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>Reporte de calidad Interna Ejecutivos de calidad: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style='color:#1F497D'>Actualizado al " + sDia + "/" + sMes + ".</span> <o:p></o:p> </span> </p> <p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>Reporte de calidad Interna Evaluaciones supervisores: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style='color:#1F497D'>Actualizado al " + sDia + "/" + sMes + ".</span> <o:p></o:p> </span> </p> <p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>Reporte de monitoreo Cruzado <span style='color:#1F497D'>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; " + informeCruzado + ".</span> <o:p></o:p> </span> </p> &nbsp;<p class=MsoNormal><b><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\";color:#1F497D'>Adicionalmente el reporte se encuentra ubicado en la siguiente ruta:<o:p></o:p></span></b></p> <p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\";color:#1F497D'><a href=\"file:///\\\\192.168.150.5\\GerenciaCX\\1.%20CALIDAD\\GERENCIA%200\\2.%20HFC\\01.%20INFORME%20UNIFICADO\\2020\\01.Enero\\\">\\\\192.168.150.5\\GerenciaCX\\1. CALIDAD\\GERENCIA 0\\2. HFC\\01. INFORME UNIFICADO\\2019\\01.Enero</a><o:p></o:p></span></p> &nbsp;<p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>Saludos,<o:p></o:p></span></p> <p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>***REMOVED***<o:p></o:p></span></p> </div> </body>  </html>";
             int iPriority = 2;
 
             if(SendMail(sSubject, sBody, iPriority))
@@ -6277,21 +6171,107 @@ namespace ST_112d1cab1b06438ebd54df5cd7cb3f11
                 Encoding="UTF16LE"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
 <c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="4.0" schemaVersion="1.0">
 	<msb:PropertyGroup>
-		<msb:Language>msBuild</msb:Language>
 		<msb:CodeName>ST_112d1cab1b06438ebd54df5cd7cb3f11</msb:CodeName>
+		<msb:Language>msBuild</msb:Language>
 		<msb:DisplayName>ST_112d1cab1b06438ebd54df5cd7cb3f11</msb:DisplayName>
 		<msb:ProjectId>{28872A41-0848-4103-A1D8-A7C414D9D3A7}</msb:ProjectId>
 	</msb:PropertyGroup>
 	<msb:ItemGroup>
 		<msb:Project Include="ST_112d1cab1b06438ebd54df5cd7cb3f11.csproj"/>
-		<msb:File Include="Properties\AssemblyInfo.cs"/>
 		<msb:File Include="Properties\Settings.settings"/>
+		<msb:File Include="Properties\AssemblyInfo.cs"/>
 		<msb:File Include="Properties\Resources.resx"/>
 		<msb:File Include="Properties\Resources.Designer.cs"/>
 		<msb:File Include="Properties\Settings.Designer.cs"/>
 		<msb:File Include="ScriptMain.cs"/>
 	</msb:ItemGroup>
 </c:Project>]]></ProjectItem>
+              <ProjectItem
+                Name="ST_112d1cab1b06438ebd54df5cd7cb3f11.csproj"
+                Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5BC635D8-F206-423E-86D0-AE29B6AD572C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ST_112d1cab1b06438ebd54df5cd7cb3f11</RootNamespace>
+    <AssemblyName>ST_112d1cab1b06438ebd54df5cd7cb3f11</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
+    <TargetFrameworkProfile></TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.SqlServer.ManagedDTS, Version=11.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.SqlServer.ScriptTask, Version=11.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ScriptMain.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <!-- Include the build rules for a C# project.-->
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
+        <ProjectProperties HostName="VSTAHostName" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" />
+        <Host Name="ScriptTask" />
+        <ProjectClient>
+          <HostIdentifier>SSIS_ST110</HostIdentifier>
+        </ProjectClient>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>]]></ProjectItem>
               <ProjectItem
                 Name="Properties\AssemblyInfo.cs"
                 Encoding="UTF8"><![CDATA[using System.Reflection;
@@ -6402,33 +6382,33 @@ namespace ST_112d1cab1b06438ebd54df5cd7cb3f11.Properties {
               <BinaryItem
                 Name="ST_112d1cab1b06438ebd54df5cd7cb3f11.dll">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
-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
+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
-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
+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
-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
+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
-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
+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
-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
+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
-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
+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
-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
+Aig3AAAKKh4CKDgAAAoqrn4BAAAELR5yoz4AcNADAAACKDkAAApvOgAACnM7AAAKgAEAAAR+AQAA
 BCoafgIAAAQqHgKAAgAABCoafgMAAAQqHgIoPAAACioucwkAAAaAAwAABCoAAEJTSkIBAAEAAAAA
 AAwAAAB2NC4wLjMwMzE5AAAAAAUAbAAAAAwFAAAjfgAAeAUAAJAHAAAjU3RyaW5ncwAAAAAIDQAA
-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
+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
@@ -6449,7 +6429,7 @@ AFYFEACJAJgGswAMAHgAwQCJALYGEACJAFcEjgCJAEgHEACBAHwAxwBxAFYFBgDBAFYFBgBZAcEA
 zQBZAVEH1gDJAFYF3ADpAFYFBgAIABQA9gAIABgA+wApAHMAZQEuAAsAPQEuABMARgEuABsAZQEu
 ACMAbgEuACsAlwEuADMAlwEuADsAlwEuAEMAbgEuAEsAnQEuAFMAlwEuAFsAtAFDAGMA+wBJAHMA
 ZQFhAHsA+wBjAGsA+wAbAGIAAwABAAQAAwAAAD4FLgEAADwBMwEAAOAGOAECAAUAAwACAAYABQAB
-AAcABQACAAgABwC5AASAAAABAAAAiBysPAAAAAAAAAEAAAAEAAAAAAAAAAAAAADkAG8AAAAAAAsA
+AAcABQACAAgABwC5AASAAAABAAAAjhzmaAAAAAAAAAEAAAAEAAAAAAAAAAAAAADkAG8AAAAAAAsA
 AAAAAAAAAAAAAO0AdQMAAAAABAAAAAAAAAAAAAAA5AB9BAAAAAALAAAAAAAAAAAAAADtAEgAAAAA
 AAAAAAABAAAApwUAAAUAAgAAAAAAAFNUXzExMmQxY2FiMWIwNjQzOGViZDU0ZGY1Y2Q3Y2IzZjEx
 AENvbGxlY3Rpb25gMQBJbnQzMgA8TW9kdWxlPgBnZXRfQ0MATWljcm9zb2Z0LlNxbFNlcnZlci5N
@@ -6731,7 +6711,7 @@ YgBzAHAAOwAmAG4AYgBzAHAAOwAmAG4AYgBzAHAAOwAmAG4AYgBzAHAAOwAmAG4AYgBzAHAAOwAm
 AG4AYgBzAHAAOwAmAG4AYgBzAHAAOwAmAG4AYgBzAHAAOwAmAG4AYgBzAHAAOwAmAG4AYgBzAHAA
 OwAmAG4AYgBzAHAAOwAmAG4AYgBzAHAAOwAmAG4AYgBzAHAAOwAmAG4AYgBzAHAAOwAmAG4AYgBz
 AHAAOwAmAG4AYgBzAHAAOwAmAG4AYgBzAHAAOwAmAG4AYgBzAHAAOwAmAG4AYgBzAHAAOwAmAG4A
-YgBzAHAAOwAgAAGGry4APAAvAHMAcABhAG4APgAgADwAbwA6AHAAPgA8AC8AbwA6AHAAPgAgADwA
+YgBzAHAAOwAgAAGGly4APAAvAHMAcABhAG4APgAgADwAbwA6AHAAPgA8AC8AbwA6AHAAPgAgADwA
 LwBzAHAAYQBuAD4AIAA8AC8AcAA+ACAAJgBuAGIAcwBwADsAPABwACAAYwBsAGEAcwBzAD0ATQBz
 AG8ATgBvAHIAbQBhAGwAPgA8AGIAPgA8AHMAcABhAG4AIABzAHQAeQBsAGUAPQAnAGYAbwBuAHQA
 LQBzAGkAegBlADoAMQAxAC4AMABwAHQAOwBmAG8AbgB0AC0AZgBhAG0AaQBsAHkAOgAiAEMAYQBs
@@ -6746,56 +6726,56 @@ LAAiAHMAYQBuAHMALQBzAGUAcgBpAGYAIgA7AGMAbwBsAG8AcgA6ACMAMQBGADQAOQA3AEQAJwA+
 ADwAYQAgAGgAcgBlAGYAPQAiAGYAaQBsAGUAOgAvAC8ALwBcAFwAMQA5ADIALgAxADYAOAAuADEA
 NQAwAC4ANQBcAEcAZQByAGUAbgBjAGkAYQBDAFgAXAAxAC4AJQAyADAAQwBBAEwASQBEAEEARABc
 AEcARQBSAEUATgBDAEkAQQAlADIAMAAwAFwAMgAuACUAMgAwAEgARgBDAFwAMAAxAC4AJQAyADAA
-SQBOAEYATwBSAE0ARQAlADIAMABVAE4ASQBGAEkAQwBBAEQATwBcADIAMAAxADkAXAAxADIALgAl
-ADIAMABEAGkAYwBpAGUAbQBiAHIAZQBcACIAPgBcAFwAMQA5ADIALgAxADYAOAAuADEANQAwAC4A
-NQBcAEcAZQByAGUAbgBjAGkAYQBDAFgAXAAxAC4AIABDAEEATABJAEQAQQBEAFwARwBFAFIARQBO
-AEMASQBBACAAMABcADIALgAgAEgARgBDAFwAMAAxAC4AIABJAE4ARgBPAFIATQBFACAAVQBOAEkA
-RgBJAEMAQQBEAE8AXAAyADAAMQA5AFwAMQAyAC4AIABEAGkAYwBpAGUAbQBiAHIAZQA8AC8AYQA+
-ADwAbwA6AHAAPgA8AC8AbwA6AHAAPgA8AC8AcwBwAGEAbgA+ADwALwBwAD4AIAAmAG4AYgBzAHAA
-OwA8AHAAIABjAGwAYQBzAHMAPQBNAHMAbwBOAG8AcgBtAGEAbAA+ADwAcwBwAGEAbgAgAHMAdAB5
-AGwAZQA9ACcAZgBvAG4AdAAtAHMAaQB6AGUAOgAxADEALgAwAHAAdAA7AGYAbwBuAHQALQBmAGEA
-bQBpAGwAeQA6ACIAQwBhAGwAaQBiAHIAaQAiACwAIgBzAGEAbgBzAC0AcwBlAHIAaQBmACIAJwA+
-AFMAYQBsAHUAZABvAHMALAA8AG8AOgBwAD4APAAvAG8AOgBwAD4APAAvAHMAcABhAG4APgA8AC8A
-cAA+ACAAPABwACAAYwBsAGEAcwBzAD0ATQBzAG8ATgBvAHIAbQBhAGwAPgA8AHMAcABhAG4AIABz
-AHQAeQBsAGUAPQAnAGYAbwBuAHQALQBzAGkAegBlADoAMQAxAC4AMABwAHQAOwBmAG8AbgB0AC0A
-ZgBhAG0AaQBsAHkAOgAiAEMAYQBsAGkAYgByAGkAIgAsACIAcwBhAG4AcwAtAHMAZQByAGkAZgAi
-ACcAPgBSAGkAYwBhAHIAZABvACAAUgBhAG0AaQByAGUAegA8AG8AOgBwAD4APAAvAG8AOgBwAD4A
-PAAvAHMAcABhAG4APgA8AC8AcAA+ACAAPAAvAGQAaQB2AD4AIAA8AC8AYgBvAGQAeQA+ACAAIAA8
-AC8AaAB0AG0AbAA+AAEdcwBtAHQAcAAuAGcAbQBhAGkAbAAuAGMAbwBtAAAHNQA4ADcAAEFyAGUA
-cABvAHIAdABpAG4AZwBfAGMAYQBsAGkAZABhAGQAQABkAHkAbgBhAG0AaQBjAGEAbABsAC4AYwBv
-AG0AABNJAHYAYQBuAGEAOAA1ADEAOQAAN1UAcwBlAHIAOgA6AHYAVQBuAGkAZgBpAGMAYQBkAG8A
-SABGAEMAXwBFAG0AYQBpAGwAVABvAAA3VQBzAGUAcgA6ADoAdgBVAG4AaQBmAGkAYwBhAGQAbwBI
-AEYAQwBfAEUAbQBhAGkAbABDAGMAAB9SAGkAYwBhAHIAZABvACAAUgBhAG0AaQByAGUAegAAAzsA
-AAEAOVUAcwBlAHIAOgA6AHYAVQBuAGkAZgBpAGMAYQBkAG8ASABmAGMAXwBmAHUAbABsAHAAYQB0
-AGgAAHFTAFQAXwAxADEAMgBkADEAYwBhAGIAMQBiADAANgA0ADMAOABlAGIAZAA1ADQAZABmADUA
-YwBkADcAYwBiADMAZgAxADEALgBQAHIAbwBwAGUAcgB0AGkAZQBzAC4AUgBlAHMAbwB1AHIAYwBl
-AHMAAAAAALGqousxB/FHlxh8Dhc5ElAABCABAQgDIAABBSABARERBCABAQ4FIAEBEW0MBwkODg4O
-Dg4IET0IBAAAET0DIAAIAyAADgQAABJpBSAAEoCBBCABDg4FIAASgIkFIAASgI0GIAESgJEcAyAA
-HAUAAQ4dDhkHEA4ODg4OEkESRRJJHQ4dDggSTRJRCAgCBSACAQ4OBgACHQ4ODgQAAQgOBCABAQIG
-IAEBEoCZBSABARJJBQACAg4OBSAAEoCdBiABARGAoQUgABKApQcVEoCpARJRBSABARMABSABARJF
-CAABEoCtEYCxBSAAEoC1ByACAQ4SgLUIt3pcVhk04IkIiYRdzYCAzJEEAAAAAAQBAAAAAwYSZQMG
-EmkDBhIQAgYIAwYRFAYgAwIODggEAAASZQUAAQESaQQAABIQAwAAAQQIABJlBAgAEmkECAASEAgB
-AAgAAAAAAB4BAAEAVAIWV3JhcE5vbkV4Y2VwdGlvblRocm93cwEIAQACAAAAAAAoAQAjU1RfMTEy
-ZDFjYWIxYjA2NDM4ZWJkNTRkZjVjZDdjYjNmMTEAAAUBAAAAABYBABFDb3B5cmlnaHQgQCAgMjAx
-OQAARwEAGi5ORVRGcmFtZXdvcmssVmVyc2lvbj12NC4wAQBUDhRGcmFtZXdvcmtEaXNwbGF5TmFt
-ZRAuTkVUIEZyYW1ld29yayA0tAAAAM7K774BAAAAkQAAAGxTeXN0ZW0uUmVzb3VyY2VzLlJlc291
-cmNlUmVhZGVyLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1
-YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkjU3lzdGVtLlJlc291cmNlcy5SdW50aW1lUmVz
-b3VyY2VTZXQCAAAAAAAAAAAAAABQQURQQURQtAAAABxzAAAAAAAAAAAAADZzAAAAIAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAocwAAAAAAAAAAAAAAAF9Db3JEbGxNYWluAG1zY29yZWUuZGxsAAAAAAD/
-JQAgABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+SQBOAEYATwBSAE0ARQAlADIAMABVAE4ASQBGAEkAQwBBAEQATwBcADIAMAAyADAAXAAwADEALgBF
+AG4AZQByAG8AXAAiAD4AXABcADEAOQAyAC4AMQA2ADgALgAxADUAMAAuADUAXABHAGUAcgBlAG4A
+YwBpAGEAQwBYAFwAMQAuACAAQwBBAEwASQBEAEEARABcAEcARQBSAEUATgBDAEkAQQAgADAAXAAy
+AC4AIABIAEYAQwBcADAAMQAuACAASQBOAEYATwBSAE0ARQAgAFUATgBJAEYASQBDAEEARABPAFwA
+MgAwADEAOQBcADAAMQAuAEUAbgBlAHIAbwA8AC8AYQA+ADwAbwA6AHAAPgA8AC8AbwA6AHAAPgA8
+AC8AcwBwAGEAbgA+ADwALwBwAD4AIAAmAG4AYgBzAHAAOwA8AHAAIABjAGwAYQBzAHMAPQBNAHMA
+bwBOAG8AcgBtAGEAbAA+ADwAcwBwAGEAbgAgAHMAdAB5AGwAZQA9ACcAZgBvAG4AdAAtAHMAaQB6
+AGUAOgAxADEALgAwAHAAdAA7AGYAbwBuAHQALQBmAGEAbQBpAGwAeQA6ACIAQwBhAGwAaQBiAHIA
+aQAiACwAIgBzAGEAbgBzAC0AcwBlAHIAaQBmACIAJwA+AFMAYQBsAHUAZABvAHMALAA8AG8AOgBw
+AD4APAAvAG8AOgBwAD4APAAvAHMAcABhAG4APgA8AC8AcAA+ACAAPABwACAAYwBsAGEAcwBzAD0A
+TQBzAG8ATgBvAHIAbQBhAGwAPgA8AHMAcABhAG4AIABzAHQAeQBsAGUAPQAnAGYAbwBuAHQALQBz
+AGkAegBlADoAMQAxAC4AMABwAHQAOwBmAG8AbgB0AC0AZgBhAG0AaQBsAHkAOgAiAEMAYQBsAGkA
+YgByAGkAIgAsACIAcwBhAG4AcwAtAHMAZQByAGkAZgAiACcAPgBSAGkAYwBhAHIAZABvACAAUgBh
+AG0AaQByAGUAegA8AG8AOgBwAD4APAAvAG8AOgBwAD4APAAvAHMAcABhAG4APgA8AC8AcAA+ACAA
+PAAvAGQAaQB2AD4AIAA8AC8AYgBvAGQAeQA+ACAAIAA8AC8AaAB0AG0AbAA+AAEdcwBtAHQAcAAu
+AGcAbQBhAGkAbAAuAGMAbwBtAAAHNQA4ADcAAEFyAGUAcABvAHIAdABpAG4AZwBfAGMAYQBsAGkA
+ZABhAGQAQABkAHkAbgBhAG0AaQBjAGEAbABsAC4AYwBvAG0AABNJAHYAYQBuAGEAOAA1ADEAOQAA
+N1UAcwBlAHIAOgA6AHYAVQBuAGkAZgBpAGMAYQBkAG8ASABGAEMAXwBFAG0AYQBpAGwAVABvAAA3
+VQBzAGUAcgA6ADoAdgBVAG4AaQBmAGkAYwBhAGQAbwBIAEYAQwBfAEUAbQBhAGkAbABDAGMAAB9S
+AGkAYwBhAHIAZABvACAAUgBhAG0AaQByAGUAegAAAzsAAAEAOVUAcwBlAHIAOgA6AHYAVQBuAGkA
+ZgBpAGMAYQBkAG8ASABmAGMAXwBmAHUAbABsAHAAYQB0AGgAAHFTAFQAXwAxADEAMgBkADEAYwBh
+AGIAMQBiADAANgA0ADMAOABlAGIAZAA1ADQAZABmADUAYwBkADcAYwBiADMAZgAxADEALgBQAHIA
+bwBwAGUAcgB0AGkAZQBzAC4AUgBlAHMAbwB1AHIAYwBlAHMAAAAAAEG1f+Yq3ApNgUBmVXMxOzYA
+BCABAQgDIAABBSABARERBCABAQ4FIAEBEW0MBwkODg4ODg4IET0IBAAAET0DIAAIAyAADgQAABJp
+BSAAEoCBBCABDg4FIAASgIkFIAASgI0GIAESgJEcAyAAHAUAAQ4dDhkHEA4ODg4OEkESRRJJHQ4d
+DggSTRJRCAgCBSACAQ4OBgACHQ4ODgQAAQgOBCABAQIGIAEBEoCZBSABARJJBQACAg4OBSAAEoCd
+BiABARGAoQUgABKApQcVEoCpARJRBSABARMABSABARJFCAABEoCtEYCxBSAAEoC1ByACAQ4SgLUI
+t3pcVhk04IkIiYRdzYCAzJEEAAAAAAQBAAAAAwYSZQMGEmkDBhIQAgYIAwYRFAYgAwIODggEAAAS
+ZQUAAQESaQQAABIQAwAAAQQIABJlBAgAEmkECAASEAgBAAgAAAAAAB4BAAEAVAIWV3JhcE5vbkV4
+Y2VwdGlvblRocm93cwEIAQACAAAAAAAoAQAjU1RfMTEyZDFjYWIxYjA2NDM4ZWJkNTRkZjVjZDdj
+YjNmMTEAAAUBAAAAABYBABFDb3B5cmlnaHQgQCAgMjAxOQAARwEAGi5ORVRGcmFtZXdvcmssVmVy
+c2lvbj12NC4wAQBUDhRGcmFtZXdvcmtEaXNwbGF5TmFtZRAuTkVUIEZyYW1ld29yayA0tAAAAM7K
+774BAAAAkQAAAGxTeXN0ZW0uUmVzb3VyY2VzLlJlc291cmNlUmVhZGVyLCBtc2NvcmxpYiwgVmVy
+c2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkz
+NGUwODkjU3lzdGVtLlJlc291cmNlcy5SdW50aW1lUmVzb3VyY2VTZXQCAAAAAAAAAAAAAABQQURQ
+QURQtAAAAARzAAAAAAAAAAAAAB5zAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQcwAAAAAAAAAA
+AAAAAF9Db3JEbGxNYWluAG1zY29yZWUuZGxsAAAAAAD/JQAgABAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAEAAAABgAAIAAAAAAAAAAAAAAAAAAAAEAAQAA
 ADAAAIAAAAAAAAAAAAAAAAAAAAEAAAAAAEgAAABYgAAAGgQAAAAAAAAAAAAAGgQ0AAAAVgBTAF8A
-VgBFAFIAUwBJAE8ATgBfAEkATgBGAE8AAAAAAL0E7/4AAAEAAAABAKw8iBwAAAEArDyIHD8AAAAA
+VgBFAFIAUwBJAE8ATgBfAEkATgBGAE8AAAAAAL0E7/4AAAEAAAABAOZojhwAAAEA5miOHD8AAAAA
 AAAABAAAAAIAAAAAAAAAAAAAAAAAAABEAAAAAQBWAGEAcgBGAGkAbABlAEkAbgBmAG8AAAAAACQA
 BAAAAFQAcgBhAG4AcwBsAGEAdABpAG8AbgAAAAAAAACwBHoDAAABAFMAdAByAGkAbgBnAEYAaQBs
 AGUASQBuAGYAbwAAAFYDAAABADAAMAAwADAAMAA0AGIAMAAAABoAAQABAEMAbwBtAG0AZQBuAHQA
 cwAAAAAAAAAiAAEAAQBDAG8AbQBwAGEAbgB5AE4AYQBtAGUAAAAAAAAAAABwACQAAQBGAGkAbABl
 AEQAZQBzAGMAcgBpAHAAdABpAG8AbgAAAAAAUwBUAF8AMQAxADIAZAAxAGMAYQBiADEAYgAwADYA
 NAAzADgAZQBiAGQANQA0AGQAZgA1AGMAZAA3AGMAYgAzAGYAMQAxAAAAPgAPAAEARgBpAGwAZQBW
-AGUAcgBzAGkAbwBuAAAAAAAxAC4AMAAuADcAMwAwADQALgAxADUANQAzADIAAAAAAHAAKAABAEkA
+AGUAcgBzAGkAbwBuAAAAAAAxAC4AMAAuADcAMwAxADAALgAyADYAOAA1ADQAAAAAAHAAKAABAEkA
 bgB0AGUAcgBuAGEAbABOAGEAbQBlAAAAUwBUAF8AMQAxADIAZAAxAGMAYQBiADEAYgAwADYANAAz
 ADgAZQBiAGQANQA0AGQAZgA1AGMAZAA3AGMAYgAzAGYAMQAxAC4AZABsAGwAAABIABIAAQBMAGUA
 ZwBhAGwAQwBvAHAAeQByAGkAZwBoAHQAAABDAG8AcAB5AHIAaQBnAGgAdAAgAEAAIAAgADIAMAAx
@@ -6804,16 +6784,16 @@ cgBpAGcAaQBuAGEAbABGAGkAbABlAG4AYQBtAGUAAABTAFQAXwAxADEAMgBkADEAYwBhAGIAMQBi
 ADAANgA0ADMAOABlAGIAZAA1ADQAZABmADUAYwBkADcAYwBiADMAZgAxADEALgBkAGwAbAAAAGgA
 JAABAFAAcgBvAGQAdQBjAHQATgBhAG0AZQAAAAAAUwBUAF8AMQAxADIAZAAxAGMAYQBiADEAYgAw
 ADYANAAzADgAZQBiAGQANQA0AGQAZgA1AGMAZAA3AGMAYgAzAGYAMQAxAAAAQgAPAAEAUAByAG8A
-ZAB1AGMAdABWAGUAcgBzAGkAbwBuAAAAMQAuADAALgA3ADMAMAA0AC4AMQA1ADUAMwAyAAAAAABG
-AA8AAQBBAHMAcwBlAG0AYgBsAHkAIABWAGUAcgBzAGkAbwBuAAAAMQAuADAALgA3ADMAMAA0AC4A
-MQA1ADUAMwAyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+ZAB1AGMAdABWAGUAcgBzAGkAbwBuAAAAMQAuADAALgA3ADMAMQAwAC4AMgA2ADgANQA0AAAAAABG
+AA8AAQBBAHMAcwBlAG0AYgBsAHkAIABWAGUAcgBzAGkAbwBuAAAAMQAuADAALgA3ADMAMQAwAC4A
+MgA2ADgANQA0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAcAAADAAAAEgzAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAcAAADAAAADAzAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -7181,7 +7161,7 @@ namespace ST_112d1cab1b06438ebd54df5cd7cb3f11
             string informeCruzado = Dts.Variables["User::vInformeCruzado"].Value.ToString();
             string sSubject = "Reporte unificado de Calidad Postpago - "+ sNmes +" (al " + sDia+"/"+sMes+")";
             // OLD string sBody = "<html xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:w=\"urn:schemas-microsoft-com:office:word\" xmlns:m=\"http://schemas.microsoft.com/office/2004/12/omml\" xmlns=\"http://www.w3.org/TR/REC-html40\">  <head> <meta http-equiv=Content-Type content=\"text/html; charset=utf-8\"> <meta name=Generator content=\"Microsoft Word 15 (filtered medium)\"> <style> <!-- /* Font Definitions */  @font-face { font-family: \"Cambria Math\"; panose-1: 2 4 5 3 5 4 6 3 2 4; }  @font-face { font-family: Calibri; panose-1: 2 15 5 2 2 2 4 3 2 4; } /* Style Definitions */  p.MsoNormal, li.MsoNormal, div.MsoNormal { margin: 0cm; margin-bottom: .0001pt; font-size: 12.0pt; font-family: \"Times New Roman\", \"serif\"; }  a:link, span.MsoHyperlink { mso-style-priority: 99; color: blue; text-decoration: underline; }  a:visited, span.MsoHyperlinkFollowed { mso-style-priority: 99; color: purple; text-decoration: underline; }  span.gmail-il { mso-style-name: gmail-il; }  span.EstiloCorreo18 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo19 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo20 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo21 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo22 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo23 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo24 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo25 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo26 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo27 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo28 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo29 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo30 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo31 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo32 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo33 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo34 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo35 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo36 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo37 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo38 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo39 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo40 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo41 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo42 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo43 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo44 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo45 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo46 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo47 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo48 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: windowtext; }  span.EstiloCorreo49 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo50 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo51 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo52 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo53 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo54 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo55 { mso-style-type: personal-reply; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  .MsoChpDefault { mso-style-type: export-only; font-size: 10.0pt; }  @page WordSection1 { size: 612.0pt 792.0pt; margin: 70.85pt 3.0cm 70.85pt 3.0cm; }  div.WordSection1 { page: WordSection1; }  --> </style> <!--[if gte mso 9]><xml> <o:shapedefaults v:ext=\"edit\" spidmax=\"1026\" /> </xml><![endif]--> <!--[if gte mso 9]><xml> <o:shapelayout v:ext=\"edit\"> <o:idmap v:ext=\"edit\" data=\"1\" /> </o:shapelayout></xml><![endif]--> </head>  <body lang=ES-PE link=blue vlink=purple> <div class=WordSection1> <p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>Buen día.<o:p></o:p></span></p> &nbsp;<p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>Se adjunta Reporte de calidad Postpago, en el cual se unifican los siguientes reportes de calidad:<o:p></o:p></span></p> &nbsp;<p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>Reporte de calidad Interna Ejecutivos de calidad<span style='color:#0070C0'>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style='color:#1F497D'>Actualizado al " + sDia + "/" + sMes + ".</span> <o:p></o:p> </span> </p> <p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>Reporte de calidad Interna Evaluaciones supervisores:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style='color:#1F497D'>Actualizado al " + sDia + "/" + sMes + ".</span> <o:p></o:p> </span> </p> <p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>Reporte de monitoreo cruzado:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style='color:#1F497D'>"+informeCruzado+".</span> <o:p></o:p> </span> </p> &nbsp;<p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>Adicionalmente, se comparte el reporte de reincidentes. <o:p></o:p></span></p> &nbsp;<p class=MsoNormal><b><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\";color:#215968'>Ambos reportes se encuentran ubicados en la siguiente ruta:</span></b><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'><o:p></o:p></span></p> <p class=MsoNormal><a href=\"file:///\\\\192.168.150.5\\GerenciaCX\\1.%20CALIDAD\\GERENCIA%200\\1.%20POSTPAGO\\01.%20INFORME%20UNIFICADO\\2019\\11.%20Noviembre\\\"><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>\\\\192.168.150.5\\GerenciaCX\\1. CALIDAD\\GERENCIA 0\\01. POSTPAGO\\1. INFORME UNIFICADO\\2019\\11. Noviembre</span></a><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\";color:#1F497D'><o:p></o:p></span></p> &nbsp;<p class=MsoNormal><b><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\";color:#215968'>Además el reporte de reincidentes se encuentra en la siguiente ruta para los asesores:<o:p></o:p></span></b></p> <p class=MsoNormal><a href=\"file:///\\\\10.197.8.2\\02_Gestion_Servicios\\01_CSR\\013_CSR_CLARO_POST\\02.INDICADORES%20CALIDAD\\\"><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>\\\\10.197.8.2\\02_Gestion_Servicios\\01_CSR\\013_CSR_CLARO_POST\\02.INDICADORES CALIDAD</span></a><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\";color:#1F497D'><o:p></o:p></span></p> &nbsp;<p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>Saludos,<o:p></o:p></span></p> <p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>***REMOVED***<o:p></o:p></span></p> </div> </body>  </html>";
-            string sBody = "<html xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:w=\"urn:schemas-microsoft-com:office:word\" xmlns:m=\"http://schemas.microsoft.com/office/2004/12/omml\" xmlns=\"http://www.w3.org/TR/REC-html40\">  <head> <meta http-equiv=Content-Type content=\"text/html; charset=utf-8\"> <meta name=Generator content=\"Microsoft Word 15 (filtered medium)\"> <style> <!-- /* Font Definitions */  @font-face { font-family: \"Cambria Math\"; panose-1: 2 4 5 3 5 4 6 3 2 4; }  @font-face { font-family: Calibri; panose-1: 2 15 5 2 2 2 4 3 2 4; } /* Style Definitions */  p.MsoNormal, li.MsoNormal, div.MsoNormal { margin: 0cm; margin-bottom: .0001pt; font-size: 12.0pt; font-family: \"Times New Roman\", \"serif\"; }  a:link, span.MsoHyperlink { mso-style-priority: 99; color: blue; text-decoration: underline; }  a:visited, span.MsoHyperlinkFollowed { mso-style-priority: 99; color: purple; text-decoration: underline; }  span.gmail-il { mso-style-name: gmail-il; }  span.EstiloCorreo18 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo19 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo20 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo21 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo22 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo23 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo24 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo25 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo26 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo27 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo28 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo29 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo30 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo31 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo32 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo33 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo34 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo35 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo36 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo37 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo38 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo39 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo40 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo41 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo42 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo43 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo44 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo45 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo46 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo47 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo48 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: windowtext; }  span.EstiloCorreo49 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo50 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo51 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo52 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo53 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo54 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo55 { mso-style-type: personal-reply; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  .MsoChpDefault { mso-style-type: export-only; font-size: 10.0pt; }  @page WordSection1 { size: 612.0pt 792.0pt; margin: 70.85pt 3.0cm 70.85pt 3.0cm; }  div.WordSection1 { page: WordSection1; }  --> </style> <!--[if gte mso 9]><xml> <o:shapedefaults v:ext=\"edit\" spidmax=\"1026\" /> </xml><![endif]--> <!--[if gte mso 9]><xml> <o:shapelayout v:ext=\"edit\"> <o:idmap v:ext=\"edit\" data=\"1\" /> </o:shapelayout></xml><![endif]--> </head>  <body lang=ES-PE link=blue vlink=purple> <div class=WordSection1> <p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>Buen día.<o:p></o:p></span></p> &nbsp;<p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>Se adjunta Reporte de calidad Postpago, en el cual se unifican los siguientes reportes de calidad:<o:p></o:p></span></p> &nbsp;<p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>Reporte de calidad Interna Ejecutivos de calidad<span style='color:#0070C0'>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style='color:#1F497D'>Actualizado al " + sDia + "/" + sMes + ".</span> <o:p></o:p> </span> </p> <p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>Reporte de calidad Interna Evaluaciones supervisores:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style='color:#1F497D'>Actualizado al " + sDia + "/" + sMes + ".</span> <o:p></o:p> </span> </p> <p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>Reporte de monitoreo cruzado:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style='color:#1F497D'>" + informeCruzado + ".</span> <o:p></o:p> </span> </p> &nbsp;<p class=MsoNormal></p> &nbsp;<p class=MsoNormal><b><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\";color:#215968'>Adicionalmente el reporte se encuentra ubicado en la siguiente ruta:</span></b><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'><o:p></o:p></span></p> <p class=MsoNormal><a href=\"file:///\\\\192.168.150.5\\GerenciaCX\\1.%20CALIDAD\\GERENCIA%200\\1.%20POSTPAGO\\01.%20INFORME%20UNIFICADO\\2019\\12.%20Diciembre\\\"><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>\\\\192.168.150.5\\GerenciaCX\\1. CALIDAD\\GERENCIA 0\\01. POSTPAGO\\1. INFORME UNIFICADO\\2019\\12. Diciembre</span></a><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\";color:#1F497D'><o:p></o:p></span></p> &nbsp;<p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>Saludos,<o:p></o:p></span></p> <p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>***REMOVED***<o:p></o:p></span></p> </div> </body>  </html>";
+            string sBody = "<html xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:w=\"urn:schemas-microsoft-com:office:word\" xmlns:m=\"http://schemas.microsoft.com/office/2004/12/omml\" xmlns=\"http://www.w3.org/TR/REC-html40\">  <head> <meta http-equiv=Content-Type content=\"text/html; charset=utf-8\"> <meta name=Generator content=\"Microsoft Word 15 (filtered medium)\"> <style> <!-- /* Font Definitions */  @font-face { font-family: \"Cambria Math\"; panose-1: 2 4 5 3 5 4 6 3 2 4; }  @font-face { font-family: Calibri; panose-1: 2 15 5 2 2 2 4 3 2 4; } /* Style Definitions */  p.MsoNormal, li.MsoNormal, div.MsoNormal { margin: 0cm; margin-bottom: .0001pt; font-size: 12.0pt; font-family: \"Times New Roman\", \"serif\"; }  a:link, span.MsoHyperlink { mso-style-priority: 99; color: blue; text-decoration: underline; }  a:visited, span.MsoHyperlinkFollowed { mso-style-priority: 99; color: purple; text-decoration: underline; }  span.gmail-il { mso-style-name: gmail-il; }  span.EstiloCorreo18 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo19 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo20 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo21 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo22 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo23 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo24 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo25 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo26 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo27 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo28 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo29 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo30 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo31 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo32 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo33 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo34 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo35 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo36 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo37 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo38 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo39 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo40 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo41 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo42 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo43 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo44 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo45 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo46 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo47 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo48 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: windowtext; }  span.EstiloCorreo49 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo50 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo51 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo52 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo53 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo54 { mso-style-type: personal; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  span.EstiloCorreo55 { mso-style-type: personal-reply; font-family: \"Calibri\", \"sans-serif\"; color: #1F497D; }  .MsoChpDefault { mso-style-type: export-only; font-size: 10.0pt; }  @page WordSection1 { size: 612.0pt 792.0pt; margin: 70.85pt 3.0cm 70.85pt 3.0cm; }  div.WordSection1 { page: WordSection1; }  --> </style> <!--[if gte mso 9]><xml> <o:shapedefaults v:ext=\"edit\" spidmax=\"1026\" /> </xml><![endif]--> <!--[if gte mso 9]><xml> <o:shapelayout v:ext=\"edit\"> <o:idmap v:ext=\"edit\" data=\"1\" /> </o:shapelayout></xml><![endif]--> </head>  <body lang=ES-PE link=blue vlink=purple> <div class=WordSection1> <p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>Buen día.<o:p></o:p></span></p> &nbsp;<p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>Se adjunta Reporte de calidad Postpago, en el cual se unifican los siguientes reportes de calidad:<o:p></o:p></span></p> &nbsp;<p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>Reporte de calidad Interna Ejecutivos de calidad<span style='color:#0070C0'>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style='color:#1F497D'>Actualizado al " + sDia + "/" + sMes + ".</span> <o:p></o:p> </span> </p> <p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>Reporte de calidad Interna Evaluaciones supervisores:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style='color:#1F497D'>Actualizado al " + sDia + "/" + sMes + ".</span> <o:p></o:p> </span> </p> <p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>Reporte de monitoreo cruzado:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style='color:#1F497D'>" + informeCruzado + ".</span> <o:p></o:p> </span> </p> &nbsp;<p class=MsoNormal></p> &nbsp;<p class=MsoNormal><b><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\";color:#215968'>Adicionalmente el reporte se encuentra ubicado en la siguiente ruta:</span></b><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'><o:p></o:p></span></p> <p class=MsoNormal><a href=\"file:///\\\\192.168.150.5\\GerenciaCX\\1.%20CALIDAD\\GERENCIA%200\\1.%20POSTPAGO\\01.%20INFORME%20UNIFICADO\\2020\\01.Enero\\\"><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>\\\\192.168.150.5\\GerenciaCX\\1. CALIDAD\\GERENCIA 0\\01. POSTPAGO\\1. INFORME UNIFICADO\\2020\\01.Enero</span></a><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\";color:#1F497D'><o:p></o:p></span></p> &nbsp;<p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>Saludos,<o:p></o:p></span></p> <p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",\"sans-serif\"'>***REMOVED***<o:p></o:p></span></p> </div> </body>  </html>";
             int iPriority = 2;
 
             if(SendMail(sSubject, sBody, iPriority))
@@ -7313,15 +7293,15 @@ namespace ST_112d1cab1b06438ebd54df5cd7cb3f11
                 Encoding="UTF16LE"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
 <c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="4.0" schemaVersion="1.0">
 	<msb:PropertyGroup>
-		<msb:CodeName>ST_afe47c2c43c249ce8f68107d0a3f06a7</msb:CodeName>
 		<msb:Language>msBuild</msb:Language>
+		<msb:CodeName>ST_afe47c2c43c249ce8f68107d0a3f06a7</msb:CodeName>
 		<msb:DisplayName>ST_afe47c2c43c249ce8f68107d0a3f06a7</msb:DisplayName>
 		<msb:ProjectId>{4AB3247B-EFBE-40A2-90B5-466E9DEAAF64}</msb:ProjectId>
 	</msb:PropertyGroup>
 	<msb:ItemGroup>
 		<msb:Project Include="ST_afe47c2c43c249ce8f68107d0a3f06a7.csproj"/>
-		<msb:File Include="Properties\Settings.settings"/>
 		<msb:File Include="Properties\AssemblyInfo.cs"/>
+		<msb:File Include="Properties\Settings.settings"/>
 		<msb:File Include="Properties\Resources.resx"/>
 		<msb:File Include="Properties\Resources.Designer.cs"/>
 		<msb:File Include="Properties\Settings.Designer.cs"/>
@@ -7438,33 +7418,33 @@ namespace ST_112d1cab1b06438ebd54df5cd7cb3f11.Properties {
               <BinaryItem
                 Name="ST_afe47c2c43c249ce8f68107d0a3f06a7.dll">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
-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
+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
-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
+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
-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
+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
-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
+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
-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
+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
-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
+EQ2aLCIRCBENmnKdQABwKCsAAAosEREGbywAAAoRCBENmm8tAAAKEQ0XWBMNEQ0RCI5pMskRCSw8
+FhMOKy8RCREOmiwiEQkRDppynUAAcCgrAAAKLBERBm8uAAAKEQkRDppvLQAAChEOF1gTDhEOEQmO
+aTLJBRcuBgUZLgwrFBEGGG8vAAAKKxIRBhdvLwAACisIEQYWby8AAAoCKBkAAApvGgAACnKfQABw
 bxsAAApvHAAACm8dAAAKczAAAAoTDBEGbzEAAAoRDG8yAAAKEQYDbzMAAAoRBhdvNAAAChEGBG81
 AAAKEQURBm82AAAKFxMP3gYmFhMP3gARDyoAAEEcAAAAAAAAAAAAAM0BAADNAQAABgAAABUAAAEe
-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
+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
-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
+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
@@ -7485,7 +7465,7 @@ AHoFEACJALwGswAMAJwAwQCJANoGEACJAHsEjgCJAGwHEACBAKAAxwBxAHoFBgDBAHoFBgBZAeUA
 zQBZAXUH1gDJAHoF3ADpAHoFBgAIABQA9gAIABgA+wApAHMAZQEuAAsAPQEuABMARgEuABsAZQEu
 ACMAbgEuACsAlwEuADMAlwEuADsAlwEuAEMAbgEuAEsAnQEuAFMAlwEuAFsAtAFDAGMA+wBJAHMA
 ZQFhAHsA+wBjAGsA+wAbAGIAAwABAAQAAwAAAGIFLgEAAGABMwEAAAQHOAECAAUAAwACAAYABQAB
-AAcABQACAAgABwC5AASAAAABAAAAiByXPAAAAAAAADgAAAAEAAAAAAAAAAAAAADkAJMAAAAAAAsA
+AAcABQACAAgABwC5AASAAAABAAAAjhzCaAAAAAAAADgAAAAEAAAAAAAAAAAAAADkAJMAAAAAAAsA
 AAAAAAAAAAAAAO0AmQMAAAAABAAAAAAAAAAAAAAA5AChBAAAAAALAAAAAAAAAAAAAADtAGwAAAAA
 AAAAAAABAAAAywUAAAUAAgAAAAAAAFNUXzExMmQxY2FiMWIwNjQzOGViZDU0ZGY1Y2Q3Y2IzZjEx
 AENvbGxlY3Rpb25gMQBJbnQzMgBTVF9hZmU0N2MyYzQzYzI0OWNlOGY2ODEwN2QwYTNmMDZhNwA8
@@ -7771,7 +7751,7 @@ cAA7ACYAbgBiAHMAcAA7ACYAbgBiAHMAcAA7ACYAbgBiAHMAcAA7ACYAbgBiAHMAcAA7ACYAbgBi
 AHMAcAA7ACYAbgBiAHMAcAA7ACYAbgBiAHMAcAA7ACYAbgBiAHMAcAA7ACYAbgBiAHMAcAA7ACYA
 bgBiAHMAcAA7ACYAbgBiAHMAcAA7ACYAbgBiAHMAcAA7ACYAbgBiAHMAcAA7ACYAbgBiAHMAcAA7
 ACYAbgBiAHMAcAA7ADwAcwBwAGEAbgAgAHMAdAB5AGwAZQA9ACcAYwBvAGwAbwByADoAIwAxAEYA
-NAA5ADcARAAnAD4AAYgjLgA8AC8AcwBwAGEAbgA+ACAAPABvADoAcAA+ADwALwBvADoAcAA+ACAA
+NAA5ADcARAAnAD4AAYgLLgA8AC8AcwBwAGEAbgA+ACAAPABvADoAcAA+ADwALwBvADoAcAA+ACAA
 PAAvAHMAcABhAG4APgAgADwALwBwAD4AIAAmAG4AYgBzAHAAOwA8AHAAIABjAGwAYQBzAHMAPQBN
 AHMAbwBOAG8AcgBtAGEAbAA+ADwALwBwAD4AIAAmAG4AYgBzAHAAOwA8AHAAIABjAGwAYQBzAHMA
 PQBNAHMAbwBOAG8AcgBtAGEAbAA+ADwAYgA+ADwAcwBwAGEAbgAgAHMAdAB5AGwAZQA9ACcAZgBv
@@ -7787,60 +7767,60 @@ ADwALwBwAD4AIAA8AHAAIABjAGwAYQBzAHMAPQBNAHMAbwBOAG8AcgBtAGEAbAA+ADwAYQAgAGgA
 cgBlAGYAPQAiAGYAaQBsAGUAOgAvAC8ALwBcAFwAMQA5ADIALgAxADYAOAAuADEANQAwAC4ANQBc
 AEcAZQByAGUAbgBjAGkAYQBDAFgAXAAxAC4AJQAyADAAQwBBAEwASQBEAEEARABcAEcARQBSAEUA
 TgBDAEkAQQAlADIAMAAwAFwAMQAuACUAMgAwAFAATwBTAFQAUABBAEcATwBcADAAMQAuACUAMgAw
-AEkATgBGAE8AUgBNAEUAJQAyADAAVQBOAEkARgBJAEMAQQBEAE8AXAAyADAAMQA5AFwAMQAyAC4A
-JQAyADAARABpAGMAaQBlAG0AYgByAGUAXAAiAD4APABzAHAAYQBuACAAcwB0AHkAbABlAD0AJwBm
-AG8AbgB0AC0AcwBpAHoAZQA6ADEAMQAuADAAcAB0ADsAZgBvAG4AdAAtAGYAYQBtAGkAbAB5ADoA
-IgBDAGEAbABpAGIAcgBpACIALAAiAHMAYQBuAHMALQBzAGUAcgBpAGYAIgAnAD4AXABcADEAOQAy
-AC4AMQA2ADgALgAxADUAMAAuADUAXABHAGUAcgBlAG4AYwBpAGEAQwBYAFwAMQAuACAAQwBBAEwA
-SQBEAEEARABcAEcARQBSAEUATgBDAEkAQQAgADAAXAAwADEALgAgAFAATwBTAFQAUABBAEcATwBc
-ADEALgAgAEkATgBGAE8AUgBNAEUAIABVAE4ASQBGAEkAQwBBAEQATwBcADIAMAAxADkAXAAxADIA
-LgAgAEQAaQBjAGkAZQBtAGIAcgBlADwALwBzAHAAYQBuAD4APAAvAGEAPgA8AHMAcABhAG4AIABz
-AHQAeQBsAGUAPQAnAGYAbwBuAHQALQBzAGkAegBlADoAMQAxAC4AMABwAHQAOwBmAG8AbgB0AC0A
-ZgBhAG0AaQBsAHkAOgAiAEMAYQBsAGkAYgByAGkAIgAsACIAcwBhAG4AcwAtAHMAZQByAGkAZgAi
-ADsAYwBvAGwAbwByADoAIwAxAEYANAA5ADcARAAnAD4APABvADoAcAA+ADwALwBvADoAcAA+ADwA
-LwBzAHAAYQBuAD4APAAvAHAAPgAgACYAbgBiAHMAcAA7ADwAcAAgAGMAbABhAHMAcwA9AE0AcwBv
-AE4AbwByAG0AYQBsAD4APABzAHAAYQBuACAAcwB0AHkAbABlAD0AJwBmAG8AbgB0AC0AcwBpAHoA
-ZQA6ADEAMQAuADAAcAB0ADsAZgBvAG4AdAAtAGYAYQBtAGkAbAB5ADoAIgBDAGEAbABpAGIAcgBp
-ACIALAAiAHMAYQBuAHMALQBzAGUAcgBpAGYAIgAnAD4AUwBhAGwAdQBkAG8AcwAsADwAbwA6AHAA
-PgA8AC8AbwA6AHAAPgA8AC8AcwBwAGEAbgA+ADwALwBwAD4AIAA8AHAAIABjAGwAYQBzAHMAPQBN
-AHMAbwBOAG8AcgBtAGEAbAA+ADwAcwBwAGEAbgAgAHMAdAB5AGwAZQA9ACcAZgBvAG4AdAAtAHMA
-aQB6AGUAOgAxADEALgAwAHAAdAA7AGYAbwBuAHQALQBmAGEAbQBpAGwAeQA6ACIAQwBhAGwAaQBi
-AHIAaQAiACwAIgBzAGEAbgBzAC0AcwBlAHIAaQBmACIAJwA+AFIAaQBjAGEAcgBkAG8AIABSAGEA
-bQBpAHIAZQB6ADwAbwA6AHAAPgA8AC8AbwA6AHAAPgA8AC8AcwBwAGEAbgA+ADwALwBwAD4AIAA8
-AC8AZABpAHYAPgAgADwALwBiAG8AZAB5AD4AIAAgADwALwBoAHQAbQBsAD4AAR1zAG0AdABwAC4A
-ZwBtAGEAaQBsAC4AYwBvAG0AAAc1ADgANwAAQXIAZQBwAG8AcgB0AGkAbgBnAF8AYwBhAGwAaQBk
-AGEAZABAAGQAeQBuAGEAbQBpAGMAYQBsAGwALgBjAG8AbQAAE0kAdgBhAG4AYQA4ADUAMQA5AAA3
-VQBzAGUAcgA6ADoAdgBVAG4AaQBmAGkAYwBhAGQAbwBQAG8AcwBfAEUAbQBhAGkAbABUAG8AADdV
-AHMAZQByADoAOgB2AFUAbgBpAGYAaQBjAGEAZABvAFAAbwBzAF8ARQBtAGEAaQBsAEMAYwAAH1IA
-aQBjAGEAcgBkAG8AIABSAGEAbQBpAHIAZQB6AAADOwAAAQA7VQBzAGUAcgA6ADoAdgBVAG4AaQBm
-AGkAYwBhAGQAbwBQAG8AcwB0AF8AZgB1AGwAbABwAGEAdABoAABxUwBUAF8AMQAxADIAZAAxAGMA
-YQBiADEAYgAwADYANAAzADgAZQBiAGQANQA0AGQAZgA1AGMAZAA3AGMAYgAzAGYAMQAxAC4AUABy
-AG8AcABlAHIAdABpAGUAcwAuAFIAZQBzAG8AdQByAGMAZQBzAAAAAADGea1vuB8jRK+5HszjP1JQ
-AAQgAQEIAyAAAQUgAQEREQQgAQEOBSABARFtDAcJDg4ODg4OCBE9CAQAABE9AyAACAMgAA4EAAAS
-aQUgABKAgQQgAQ4OBSAAEoCJBSAAEoCNBiABEoCRHAMgABwFAAEOHQ4ZBxAODg4ODhJBEkUSSR0O
-HQ4IEk0SUQgIAgUgAgEODgYAAh0ODg4EAAEIDgQgAQECBiABARKAmQUgAQESSQUAAgIODgUgABKA
-nQYgAQERgKEFIAASgKUHFRKAqQESUQUgAQETAAUgAQESRQgAARKArRGAsQUgABKAtQcgAgEOEoC1
-CLd6XFYZNOCJCImEXc2AgMyRBAAAAAAEAQAAAAMGEmUDBhJpAwYSEAIGCAMGERQGIAMCDg4IBAAA
-EmUFAAEBEmkEAAASEAMAAAEECAASZQQIABJpBAgAEhAIAQAIAAAAAAAeAQABAFQCFldyYXBOb25F
-eGNlcHRpb25UaHJvd3MBCAEAAgAAAAAAKAEAI1NUXzExMmQxY2FiMWIwNjQzOGViZDU0ZGY1Y2Q3
-Y2IzZjExAAAFAQAAAAAWAQARQ29weXJpZ2h0IEAgIDIwMTkAAEcBABouTkVURnJhbWV3b3JrLFZl
-cnNpb249djQuMAEAVA4URnJhbWV3b3JrRGlzcGxheU5hbWUQLk5FVCBGcmFtZXdvcmsgNLQAAADO
-yu++AQAAAJEAAABsU3lzdGVtLlJlc291cmNlcy5SZXNvdXJjZVJlYWRlciwgbXNjb3JsaWIsIFZl
-cnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5
-MzRlMDg5I1N5c3RlbS5SZXNvdXJjZXMuUnVudGltZVJlc291cmNlU2V0AgAAAAAAAAAAAAAAUEFE
-UEFEULQAAAB4dQAAAAAAAAAAAACSdQAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhHUAAAAAAAAA
-AAAAAABfQ29yRGxsTWFpbgBtc2NvcmVlLmRsbAAAAAAA/yUAIAAQAAAAAAAAAAAAAAAAAAAAAAAA
+AEkATgBGAE8AUgBNAEUAJQAyADAAVQBOAEkARgBJAEMAQQBEAE8AXAAyADAAMgAwAFwAMAAxAC4A
+RQBuAGUAcgBvAFwAIgA+ADwAcwBwAGEAbgAgAHMAdAB5AGwAZQA9ACcAZgBvAG4AdAAtAHMAaQB6
+AGUAOgAxADEALgAwAHAAdAA7AGYAbwBuAHQALQBmAGEAbQBpAGwAeQA6ACIAQwBhAGwAaQBiAHIA
+aQAiACwAIgBzAGEAbgBzAC0AcwBlAHIAaQBmACIAJwA+AFwAXAAxADkAMgAuADEANgA4AC4AMQA1
+ADAALgA1AFwARwBlAHIAZQBuAGMAaQBhAEMAWABcADEALgAgAEMAQQBMAEkARABBAEQAXABHAEUA
+UgBFAE4AQwBJAEEAIAAwAFwAMAAxAC4AIABQAE8AUwBUAFAAQQBHAE8AXAAxAC4AIABJAE4ARgBP
+AFIATQBFACAAVQBOAEkARgBJAEMAQQBEAE8AXAAyADAAMgAwAFwAMAAxAC4ARQBuAGUAcgBvADwA
+LwBzAHAAYQBuAD4APAAvAGEAPgA8AHMAcABhAG4AIABzAHQAeQBsAGUAPQAnAGYAbwBuAHQALQBz
+AGkAegBlADoAMQAxAC4AMABwAHQAOwBmAG8AbgB0AC0AZgBhAG0AaQBsAHkAOgAiAEMAYQBsAGkA
+YgByAGkAIgAsACIAcwBhAG4AcwAtAHMAZQByAGkAZgAiADsAYwBvAGwAbwByADoAIwAxAEYANAA5
+ADcARAAnAD4APABvADoAcAA+ADwALwBvADoAcAA+ADwALwBzAHAAYQBuAD4APAAvAHAAPgAgACYA
+bgBiAHMAcAA7ADwAcAAgAGMAbABhAHMAcwA9AE0AcwBvAE4AbwByAG0AYQBsAD4APABzAHAAYQBu
+ACAAcwB0AHkAbABlAD0AJwBmAG8AbgB0AC0AcwBpAHoAZQA6ADEAMQAuADAAcAB0ADsAZgBvAG4A
+dAAtAGYAYQBtAGkAbAB5ADoAIgBDAGEAbABpAGIAcgBpACIALAAiAHMAYQBuAHMALQBzAGUAcgBp
+AGYAIgAnAD4AUwBhAGwAdQBkAG8AcwAsADwAbwA6AHAAPgA8AC8AbwA6AHAAPgA8AC8AcwBwAGEA
+bgA+ADwALwBwAD4AIAA8AHAAIABjAGwAYQBzAHMAPQBNAHMAbwBOAG8AcgBtAGEAbAA+ADwAcwBw
+AGEAbgAgAHMAdAB5AGwAZQA9ACcAZgBvAG4AdAAtAHMAaQB6AGUAOgAxADEALgAwAHAAdAA7AGYA
+bwBuAHQALQBmAGEAbQBpAGwAeQA6ACIAQwBhAGwAaQBiAHIAaQAiACwAIgBzAGEAbgBzAC0AcwBl
+AHIAaQBmACIAJwA+AFIAaQBjAGEAcgBkAG8AIABSAGEAbQBpAHIAZQB6ADwAbwA6AHAAPgA8AC8A
+bwA6AHAAPgA8AC8AcwBwAGEAbgA+ADwALwBwAD4AIAA8AC8AZABpAHYAPgAgADwALwBiAG8AZAB5
+AD4AIAAgADwALwBoAHQAbQBsAD4AAR1zAG0AdABwAC4AZwBtAGEAaQBsAC4AYwBvAG0AAAc1ADgA
+NwAAQXIAZQBwAG8AcgB0AGkAbgBnAF8AYwBhAGwAaQBkAGEAZABAAGQAeQBuAGEAbQBpAGMAYQBs
+AGwALgBjAG8AbQAAE0kAdgBhAG4AYQA4ADUAMQA5AAA3VQBzAGUAcgA6ADoAdgBVAG4AaQBmAGkA
+YwBhAGQAbwBQAG8AcwBfAEUAbQBhAGkAbABUAG8AADdVAHMAZQByADoAOgB2AFUAbgBpAGYAaQBj
+AGEAZABvAFAAbwBzAF8ARQBtAGEAaQBsAEMAYwAAH1IAaQBjAGEAcgBkAG8AIABSAGEAbQBpAHIA
+ZQB6AAADOwAAAQA7VQBzAGUAcgA6ADoAdgBVAG4AaQBmAGkAYwBhAGQAbwBQAG8AcwB0AF8AZgB1
+AGwAbABwAGEAdABoAABxUwBUAF8AMQAxADIAZAAxAGMAYQBiADEAYgAwADYANAAzADgAZQBiAGQA
+NQA0AGQAZgA1AGMAZAA3AGMAYgAzAGYAMQAxAC4AUAByAG8AcABlAHIAdABpAGUAcwAuAFIAZQBz
+AG8AdQByAGMAZQBzAAAAAACvHzUhokzXSYQFBa1NdXukAAQgAQEIAyAAAQUgAQEREQQgAQEOBSAB
+ARFtDAcJDg4ODg4OCBE9CAQAABE9AyAACAMgAA4EAAASaQUgABKAgQQgAQ4OBSAAEoCJBSAAEoCN
+BiABEoCRHAMgABwFAAEOHQ4ZBxAODg4ODhJBEkUSSR0OHQ4IEk0SUQgIAgUgAgEODgYAAh0ODg4E
+AAEIDgQgAQECBiABARKAmQUgAQESSQUAAgIODgUgABKAnQYgAQERgKEFIAASgKUHFRKAqQESUQUg
+AQETAAUgAQESRQgAARKArRGAsQUgABKAtQcgAgEOEoC1CLd6XFYZNOCJCImEXc2AgMyRBAAAAAAE
+AQAAAAMGEmUDBhJpAwYSEAIGCAMGERQGIAMCDg4IBAAAEmUFAAEBEmkEAAASEAMAAAEECAASZQQI
+ABJpBAgAEhAIAQAIAAAAAAAeAQABAFQCFldyYXBOb25FeGNlcHRpb25UaHJvd3MBCAEAAgAAAAAA
+KAEAI1NUXzExMmQxY2FiMWIwNjQzOGViZDU0ZGY1Y2Q3Y2IzZjExAAAFAQAAAAAWAQARQ29weXJp
+Z2h0IEAgIDIwMTkAAEcBABouTkVURnJhbWV3b3JrLFZlcnNpb249djQuMAEAVA4URnJhbWV3b3Jr
+RGlzcGxheU5hbWUQLk5FVCBGcmFtZXdvcmsgNLQAAADOyu++AQAAAJEAAABsU3lzdGVtLlJlc291
+cmNlcy5SZXNvdXJjZVJlYWRlciwgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1u
+ZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5I1N5c3RlbS5SZXNvdXJjZXMu
+UnVudGltZVJlc291cmNlU2V0AgAAAAAAAAAAAAAAUEFEUEFEULQAAABgdQAAAAAAAAAAAAB6dQAA
+ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAbHUAAAAAAAAAAAAAAABfQ29yRGxsTWFpbgBtc2NvcmVl
+LmRsbAAAAAAA/yUAIAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAQAAAAGAAAgAAAAAAAAAAAAAAAAAAAAQABAAAA
 MAAAgAAAAAAAAAAAAAAAAAAAAQAAAAAASAAAAFiAAAAaBAAAAAAAAAAAAAAaBDQAAABWAFMAXwBW
-AEUAUgBTAEkATwBOAF8ASQBOAEYATwAAAAAAvQTv/gAAAQAAAAEAlzyIHAAAAQCXPIgcPwAAAAAA
+AEUAUgBTAEkATwBOAF8ASQBOAEYATwAAAAAAvQTv/gAAAQAAAAEAwmiOHAAAAQDCaI4cPwAAAAAA
 AAAEAAAAAgAAAAAAAAAAAAAAAAAAAEQAAAABAFYAYQByAEYAaQBsAGUASQBuAGYAbwAAAAAAJAAE
 AAAAVAByAGEAbgBzAGwAYQB0AGkAbwBuAAAAAAAAALAEegMAAAEAUwB0AHIAaQBuAGcARgBpAGwA
 ZQBJAG4AZgBvAAAAVgMAAAEAMAAwADAAMAAwADQAYgAwAAAAGgABAAEAQwBvAG0AbQBlAG4AdABz
 AAAAAAAAACIAAQABAEMAbwBtAHAAYQBuAHkATgBhAG0AZQAAAAAAAAAAAHAAJAABAEYAaQBsAGUA
 RABlAHMAYwByAGkAcAB0AGkAbwBuAAAAAABTAFQAXwAxADEAMgBkADEAYwBhAGIAMQBiADAANgA0
 ADMAOABlAGIAZAA1ADQAZABmADUAYwBkADcAYwBiADMAZgAxADEAAAA+AA8AAQBGAGkAbABlAFYA
-ZQByAHMAaQBvAG4AAAAAADEALgAwAC4ANwAzADAANAAuADEANQA1ADEAMQAAAAAAcAAoAAEASQBu
+ZQByAHMAaQBvAG4AAAAAADEALgAwAC4ANwAzADEAMAAuADIANgA4ADEAOAAAAAAAcAAoAAEASQBu
 AHQAZQByAG4AYQBsAE4AYQBtAGUAAABTAFQAXwBhAGYAZQA0ADcAYwAyAGMANAAzAGMAMgA0ADkA
 YwBlADgAZgA2ADgAMQAwADcAZAAwAGEAMwBmADAANgBhADcALgBkAGwAbAAAAEgAEgABAEwAZQBn
 AGEAbABDAG8AcAB5AHIAaQBnAGgAdAAAAEMAbwBwAHkAcgBpAGcAaAB0ACAAQAAgACAAMgAwADEA
@@ -7849,16 +7829,16 @@ AGkAZwBpAG4AYQBsAEYAaQBsAGUAbgBhAG0AZQAAAFMAVABfAGEAZgBlADQANwBjADIAYwA0ADMA
 YwAyADQAOQBjAGUAOABmADYAOAAxADAANwBkADAAYQAzAGYAMAA2AGEANwAuAGQAbABsAAAAaAAk
 AAEAUAByAG8AZAB1AGMAdABOAGEAbQBlAAAAAABTAFQAXwAxADEAMgBkADEAYwBhAGIAMQBiADAA
 NgA0ADMAOABlAGIAZAA1ADQAZABmADUAYwBkADcAYwBiADMAZgAxADEAAABCAA8AAQBQAHIAbwBk
-AHUAYwB0AFYAZQByAHMAaQBvAG4AAAAxAC4AMAAuADcAMwAwADQALgAxADUANQAxADEAAAAAAEYA
-DwABAEEAcwBzAGUAbQBiAGwAeQAgAFYAZQByAHMAaQBvAG4AAAAxAC4AMAAuADcAMwAwADQALgAx
-ADUANQAxADEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AHUAYwB0AFYAZQByAHMAaQBvAG4AAAAxAC4AMAAuADcAMwAxADAALgAyADYAOAAxADgAAAAAAEYA
+DwABAEEAcwBzAGUAbQBiAGwAeQAgAFYAZQByAHMAaQBvAG4AAAAxAC4AMAAuADcAMwAxADAALgAy
+ADYAOAAxADgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAABwAAAMAAAApDUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAABwAAAMAAAAjDUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -7880,7 +7860,7 @@ AAAAAAAAAAAA</BinaryItem>
           DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
           DTS:LocaleID="-1"
           DTS:ObjectName="Upd base Evas HFC"
-          DTS:ThreadHint="2">
+          DTS:ThreadHint="1">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -7897,7 +7877,7 @@ AAAAAAAAAAAA</BinaryItem>
           DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
           DTS:LocaleID="-1"
           DTS:ObjectName="Upd base Evas Post"
-          DTS:ThreadHint="3">
+          DTS:ThreadHint="2">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -8154,6 +8134,10 @@ AAAAAAAAAAAA</BinaryItem>
           Id="Package\FEEDBACK"
           TopLeft="667.224747474751,102.828282828283" />
         <NodeLayout
+          Size="182,42"
+          Id="Package\Importa Informes CZ"
+          TopLeft="251.33333333333,20.666666666667" />
+        <NodeLayout
           Size="155,42"
           Id="Package\Reporte Rellamadas BO\Script UPD_XL"
           TopLeft="29.9191919191909,92.2500000000001" />
@@ -8190,10 +8174,6 @@ AAAAAAAAAAAA</BinaryItem>
           Size="223,232"
           Id="Package\Reporte Rellamadas BO"
           TopLeft="936.222222222222,111" />
-        <NodeLayout
-          Size="182,42"
-          Id="Package\Importa Informes CZ"
-          TopLeft="251.33333333333,20.666666666667" />
         <NodeLayout
           Size="234,42"
           Id="Package\Unificados HFC-POST\Actualiza Reportes XL_HFC\Copia Reporte a Gerencia HFC"

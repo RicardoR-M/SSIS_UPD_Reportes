@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="12/27/2019 11:31:34 AM"
@@ -11,8 +11,8 @@
   DTS:LocaleID="10250"
   DTS:ObjectName="Cruzado"
   DTS:PackageType="5"
-  DTS:VersionBuild="52"
-  DTS:VersionGUID="{06852281-2181-4031-841C-AC606C9AFE35}">
+  DTS:VersionBuild="58"
+  DTS:VersionGUID="{8487B689-27D0-46F6-B8C2-9543C5D67F52}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">6</DTS:Property>
   <DTS:ConnectionManagers>
@@ -76,6 +76,15 @@
   <DTS:Variables>
     <DTS:Variable
       DTS:CreationName=""
+      DTS:DTSID="{DB32CAC4-675C-440E-82F4-8381B43A608B}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="vCzAdmCubo">
+      <DTS:VariableValue
+        DTS:DataType="11">0</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
       DTS:DTSID="{CAA9A6E9-23E2-4406-AD7B-A051166DEB72}"
       DTS:IncludeInDebugDump="2345"
       DTS:Namespace="User"
@@ -83,6 +92,24 @@
       <DTS:VariableValue
         DTS:DataType="8"
         xml:space="preserve"></DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{88099E6C-B666-42EA-9653-7E94D79A79D0}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="vCzPostCubo">
+      <DTS:VariableValue
+        DTS:DataType="11">0</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{D6B25949-5701-4F87-AEA3-49AA36D9C12C}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="vCzTecCubo">
+      <DTS:VariableValue
+        DTS:DataType="11">0</DTS:VariableValue>
     </DTS:Variable>
   </DTS:Variables>
   <DTS:Executables>
@@ -4564,7 +4591,7 @@
           DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExpressionTask.ExpressionTask, Microsoft.SqlServer.ExpressionTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
           DTS:LocaleID="-1"
           DTS:ObjectName="Exp_Adm"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="1">
           <DTS:Variables />
           <DTS:ObjectData>
             <ExpressionTask
@@ -4579,7 +4606,7 @@
           DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExpressionTask.ExpressionTask, Microsoft.SqlServer.ExpressionTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
           DTS:LocaleID="-1"
           DTS:ObjectName="Exp_Post"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="2">
           <DTS:Variables />
           <DTS:ObjectData>
             <ExpressionTask
@@ -4594,11 +4621,56 @@
           DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExpressionTask.ExpressionTask, Microsoft.SqlServer.ExpressionTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
           DTS:LocaleID="-1"
           DTS:ObjectName="Exp_Tec"
-          DTS:ThreadHint="2">
+          DTS:ThreadHint="0">
           <DTS:Variables />
           <DTS:ObjectData>
             <ExpressionTask
               Expression="1==1" />
+          </DTS:ObjectData>
+        </DTS:Executable>
+        <DTS:Executable
+          DTS:refId="Package\Foreach Loop Container\Flag Cubo Adm"
+          DTS:CreationName="Microsoft.SqlServer.Dts.Tasks.ExpressionTask.ExpressionTask, Microsoft.SqlServer.ExpressionTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+          DTS:Description="Expression Task"
+          DTS:DTSID="{39f9aac3-7574-4888-a4d8-5d4edc24665a}"
+          DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExpressionTask.ExpressionTask, Microsoft.SqlServer.ExpressionTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Flag Cubo Adm"
+          DTS:ThreadHint="1">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <ExpressionTask
+              Expression="@[User::vCzAdmCubo] = True" />
+          </DTS:ObjectData>
+        </DTS:Executable>
+        <DTS:Executable
+          DTS:refId="Package\Foreach Loop Container\Flag Cubo Post"
+          DTS:CreationName="Microsoft.SqlServer.Dts.Tasks.ExpressionTask.ExpressionTask, Microsoft.SqlServer.ExpressionTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+          DTS:Description="Expression Task"
+          DTS:DTSID="{C9534A1A-4A20-4172-A463-DD7C20DBB3A6}"
+          DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExpressionTask.ExpressionTask, Microsoft.SqlServer.ExpressionTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Flag Cubo Post"
+          DTS:ThreadHint="2">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <ExpressionTask
+              Expression="@[User::vCzPostCubo] = True" />
+          </DTS:ObjectData>
+        </DTS:Executable>
+        <DTS:Executable
+          DTS:refId="Package\Foreach Loop Container\Flag Cubo Tec"
+          DTS:CreationName="Microsoft.SqlServer.Dts.Tasks.ExpressionTask.ExpressionTask, Microsoft.SqlServer.ExpressionTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+          DTS:Description="Expression Task"
+          DTS:DTSID="{f078958d-aa65-48dc-9f2e-43f6cf7dab2f}"
+          DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExpressionTask.ExpressionTask, Microsoft.SqlServer.ExpressionTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Flag Cubo Tec"
+          DTS:ThreadHint="0">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <ExpressionTask
+              Expression="@[User::vCzTecCubo]  = True" />
           </DTS:ObjectData>
         </DTS:Executable>
         <DTS:Executable
@@ -13135,7 +13207,7 @@
           DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
           DTS:LocaleID="-1"
           DTS:ObjectName="TRC_ADM"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="1">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -13151,7 +13223,7 @@
           DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
           DTS:LocaleID="-1"
           DTS:ObjectName="TRC_POST"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="2">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -13167,7 +13239,7 @@
           DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
           DTS:LocaleID="-1"
           DTS:ObjectName="TRC_TEC"
-          DTS:ThreadHint="2">
+          DTS:ThreadHint="0">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -13231,6 +13303,30 @@
           DTS:LogicalAnd="True"
           DTS:ObjectName="Constraint 5"
           DTS:To="Package\Foreach Loop Container\ADM" />
+        <DTS:PrecedenceConstraint
+          DTS:refId="Package\Foreach Loop Container.PrecedenceConstraints[Constraint 6]"
+          DTS:CreationName=""
+          DTS:DTSID="{F5258BE3-68F2-49D5-BDE7-939A0A8D5A9A}"
+          DTS:From="Package\Foreach Loop Container\POST"
+          DTS:LogicalAnd="True"
+          DTS:ObjectName="Constraint 6"
+          DTS:To="Package\Foreach Loop Container\Flag Cubo Post" />
+        <DTS:PrecedenceConstraint
+          DTS:refId="Package\Foreach Loop Container.PrecedenceConstraints[Constraint 7]"
+          DTS:CreationName=""
+          DTS:DTSID="{0734C0A7-1F99-43DA-B0A0-157DDF33D0AF}"
+          DTS:From="Package\Foreach Loop Container\TEC"
+          DTS:LogicalAnd="True"
+          DTS:ObjectName="Constraint 7"
+          DTS:To="Package\Foreach Loop Container\Flag Cubo Tec" />
+        <DTS:PrecedenceConstraint
+          DTS:refId="Package\Foreach Loop Container.PrecedenceConstraints[Constraint 8]"
+          DTS:CreationName=""
+          DTS:DTSID="{96756DE1-481B-4BD9-8903-1605E41D411C}"
+          DTS:From="Package\Foreach Loop Container\ADM"
+          DTS:LogicalAnd="True"
+          DTS:ObjectName="Constraint 8"
+          DTS:To="Package\Foreach Loop Container\Flag Cubo Adm" />
       </DTS:PrecedenceConstraints>
       <DTS:ForEachVariableMappings>
         <DTS:ForEachVariableMapping
@@ -13247,6 +13343,8 @@
       DTS:refId="Package.PrecedenceConstraints[Constraint]"
       DTS:CreationName=""
       DTS:DTSID="{FC12EB8F-5630-4337-85BE-5E8558CA8FA4}"
+      DTS:EvalOp="3"
+      DTS:Expression="@[User::vCzTecCubo] == True ||  @[User::vCzAdmCubo]== True"
       DTS:From="Package\Foreach Loop Container"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint"
@@ -13254,7 +13352,9 @@
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 1]"
       DTS:CreationName=""
-      DTS:DTSID="{6670AB57-F0D4-41F6-9CE8-0423DA72F90A}"
+      DTS:DTSID="{6574E29C-E5A0-427D-AC4D-39AD5F0B5523}"
+      DTS:EvalOp="3"
+      DTS:Expression="@[User::vCzPostCubo] == True"
       DTS:From="Package\Foreach Loop Container"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 1"
@@ -13275,11 +13375,11 @@
         <NodeLayout
           Size="133,42"
           Id="Package\Cubo HFC"
-          TopLeft="698,498" />
+          TopLeft="703,509" />
         <NodeLayout
           Size="157,42"
           Id="Package\Cubo Postpago"
-          TopLeft="461,500" />
+          TopLeft="470,513" />
         <NodeLayout
           Size="105,42"
           Id="Package\Foreach Loop Container\ADM"
@@ -13454,27 +13554,54 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <ContainerLayout
-          HeaderHeight="43"
-          IsExpanded="True"
-          PanelSize="667,283"
-          Size="667,326"
-          Id="Package\Foreach Loop Container"
-          TopLeft="320,114" />
+        <NodeLayout
+          Size="157,42"
+          Id="Package\Foreach Loop Container\Flag Cubo Post"
+          TopLeft="24,279" />
         <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="763.916666666667,440">
+          Id="Package\Foreach Loop Container.PrecedenceConstraints[Constraint 6]"
+          TopLeft="100.5,245">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,58"
+              EndConnector="0,34"
               Start="0,0"
-              End="0,50.5">
+              End="0,26.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,50.5" />
+                    End="0,26.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="153,42"
+          Id="Package\Foreach Loop Container\Flag Cubo Tec"
+          TopLeft="241,277" />
+        <NodeLayout
+          Size="157,42"
+          Id="Package\Foreach Loop Container\Flag Cubo Adm"
+          TopLeft="437,278" />
+        <EdgeLayout
+          Id="Package\Foreach Loop Container.PrecedenceConstraints[Constraint 7]"
+          TopLeft="314.5,249">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,28"
+              Start="0,0"
+              End="0,20.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,20.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13484,25 +13611,80 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="541.583333333333,440">
+          Id="Package\Foreach Loop Container.PrecedenceConstraints[Constraint 8]"
+          TopLeft="512,250">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60"
+              EndConnector="0,28"
               Start="0,0"
-              End="0,52.5">
+              End="0,20.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.5" />
+                    End="0,20.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <ContainerLayout
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="667,381"
+          Size="667,424"
+          Id="Package\Foreach Loop Container"
+          TopLeft="322,47.5" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint]"
+          TopLeft="767.416666666667,471.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,37.5"
+              Start="0,0"
+              End="0,30">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,30" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-8,7,16,16"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 1]"
+          TopLeft="547.083333333333,471.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,41.5"
+              Start="0,0"
+              End="0,34">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,34" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-8,9,16,16"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -13572,7 +13754,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13594,7 +13778,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -13666,7 +13852,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13688,7 +13876,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13784,7 +13974,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13806,7 +13998,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
