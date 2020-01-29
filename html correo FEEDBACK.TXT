@@ -1,0 +1,356 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=utf-8">
+    <meta name=Generator content="Microsoft Word 15 (filtered medium)">
+    <style>
+        <!--
+        /* Font Definitions */
+        
+        @font-face {
+            font-family: "Cambria Math";
+            panose-1: 2 4 5 3 5 4 6 3 2 4;
+        }
+        
+        @font-face {
+            font-family: Calibri;
+            panose-1: 2 15 5 2 2 2 4 3 2 4;
+        }
+        /* Style Definitions */
+        
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin: 0cm;
+            margin-bottom: .0001pt;
+            font-size: 12.0pt;
+            font-family: "Times New Roman", "serif";
+        }
+        
+        a:link,
+        span.MsoHyperlink {
+            mso-style-priority: 99;
+            color: blue;
+            text-decoration: underline;
+        }
+        
+        a:visited,
+        span.MsoHyperlinkFollowed {
+            mso-style-priority: 99;
+            color: purple;
+            text-decoration: underline;
+        }
+        
+        p.gmail-msoplaintext,
+        li.gmail-msoplaintext,
+        div.gmail-msoplaintext {
+            mso-style-name: gmail-msoplaintext;
+            mso-margin-top-alt: auto;
+            margin-right: 0cm;
+            mso-margin-bottom-alt: auto;
+            margin-left: 0cm;
+            font-size: 12.0pt;
+            font-family: "Times New Roman", "serif";
+        }
+        
+        span.EstiloCorreo18 {
+            mso-style-type: personal;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        span.EstiloCorreo19 {
+            mso-style-type: personal;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        span.EstiloCorreo20 {
+            mso-style-type: personal;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        span.EstiloCorreo21 {
+            mso-style-type: personal;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        span.EstiloCorreo22 {
+            mso-style-type: personal;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        span.EstiloCorreo23 {
+            mso-style-type: personal;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        span.EstiloCorreo24 {
+            mso-style-type: personal;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        span.EstiloCorreo25 {
+            mso-style-type: personal;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        span.EstiloCorreo26 {
+            mso-style-type: personal;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        span.EstiloCorreo27 {
+            mso-style-type: personal;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        span.EstiloCorreo28 {
+            mso-style-type: personal;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        span.EstiloCorreo29 {
+            mso-style-type: personal;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        span.EstiloCorreo30 {
+            mso-style-type: personal;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        span.EstiloCorreo31 {
+            mso-style-type: personal;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        span.EstiloCorreo32 {
+            mso-style-type: personal;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        span.EstiloCorreo33 {
+            mso-style-type: personal;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        span.EstiloCorreo34 {
+            mso-style-type: personal;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        span.EstiloCorreo35 {
+            mso-style-type: personal;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        span.EstiloCorreo36 {
+            mso-style-type: personal;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        span.EstiloCorreo37 {
+            mso-style-type: personal;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        span.EstiloCorreo38 {
+            mso-style-type: personal;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        span.EstiloCorreo39 {
+            mso-style-type: personal;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        span.EstiloCorreo40 {
+            mso-style-type: personal;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        span.EstiloCorreo41 {
+            mso-style-type: personal;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        span.EstiloCorreo42 {
+            mso-style-type: personal;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        span.EstiloCorreo43 {
+            mso-style-type: personal;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        span.EstiloCorreo44 {
+            mso-style-type: personal;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        span.EstiloCorreo45 {
+            mso-style-type: personal;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        span.EstiloCorreo46 {
+            mso-style-type: personal;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        span.EstiloCorreo47 {
+            mso-style-type: personal;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        span.EstiloCorreo48 {
+            mso-style-type: personal;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        span.EstiloCorreo49 {
+            mso-style-type: personal;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        span.EstiloCorreo50 {
+            mso-style-type: personal;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        span.EstiloCorreo51 {
+            mso-style-type: personal;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        span.EstiloCorreo52 {
+            mso-style-type: personal;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        span.EstiloCorreo53 {
+            mso-style-type: personal;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        span.EstiloCorreo54 {
+            mso-style-type: personal;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        span.EstiloCorreo55 {
+            mso-style-type: personal;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        span.EstiloCorreo56 {
+            mso-style-type: personal;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        span.EstiloCorreo57 {
+            mso-style-type: personal;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        span.EstiloCorreo58 {
+            mso-style-type: personal;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        span.EstiloCorreo59 {
+            mso-style-type: personal;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        span.EstiloCorreo60 {
+            mso-style-type: personal-reply;
+            font-family: "Calibri", "sans-serif";
+            color: #1F497D;
+        }
+        
+        .MsoChpDefault {
+            mso-style-type: export-only;
+            font-size: 10.0pt;
+        }
+        
+        @page WordSection1 {
+            size: 612.0pt 792.0pt;
+            margin: 70.85pt 3.0cm 70.85pt 3.0cm;
+        }
+        
+        div.WordSection1 {
+            page: WordSection1;
+        }
+        
+        -->
+    </style>
+    <!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]-->
+    <!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=ES-PE link=blue vlink=purple>
+    <div class=WordSection1>
+        <p class=gmail-msoplaintext style='margin:0cm;margin-bottom:.0001pt'><span style='font-size:11.0pt;font-family:"Calibri","sans-serif"'>Buen día,<o:p></o:p></span></p>
+        <p class=gmail-msoplaintext style='margin:0cm;margin-bottom:.0001pt'><span style='font-size:11.0pt;font-family:"Calibri","sans-serif"'>&nbsp;<o:p></o:p></span></p>
+        <p class=gmail-msoplaintext style='margin:0cm;margin-bottom:.0001pt'><span style='font-size:11.0pt;font-family:"Calibri","sans-serif"'>Se envía el reporte de Feedback actualizado, de las campañas Postpago, HFC Técnico y HFC Administrativo.<o:p></o:p></span></p>
+        <p class=gmail-msoplaintext style='margin:0cm;margin-bottom:.0001pt'><span style='font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497D'>&nbsp;</span><span style='font-size:11.0pt;font-family:"Calibri","sans-serif"'><o:p></o:p></span></p>
+        <p class=gmail-msoplaintext style='margin:0cm;margin-bottom:.0001pt'><b><span style='font-size:11.0pt;font-family:"Calibri","sans-serif";color:#215968'>Adicionalmente, el reporte se encuentra ubicado en las siguientes rutas:</span></b><span style='font-size:11.0pt;font-family:"Calibri","sans-serif"'><o:p></o:p></span></p>
+        <p class=gmail-msoplaintext style='margin:0cm;margin-bottom:.0001pt'><a href="file:///\\192.168.150.5\GerenciaCX\1.%20CALIDAD\GERENCIA%200\2.%20HFC\03.%20REPORTE%20DE%20FEEDBACK"><span style='font-size:11.0pt;font-family:"Calibri","sans-serif"'>\\192.168.150.5\GerenciaCX\1. CALIDAD\GERENCIA 0\2. HFC\03. REPORTE DE FEEDBACK</span></a><span style='font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497D'><o:p></o:p></span></p>
+        <p class=gmail-msoplaintext style='margin:0cm;margin-bottom:.0001pt'><a href="file:///\\192.168.150.5\GerenciaCX\1.%20CALIDAD\GERENCIA%200\1.%20POSTPAGO\03.%20REPORTE%20DE%20FEEDBACK"><span style='font-size:11.0pt;font-family:"Calibri","sans-serif"'>\\192.168.150.5\GerenciaCX\1. CALIDAD\GERENCIA 0\1. POSTPAGO\03. REPORTE DE FEEDBACK</span></a><span style='font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497D'><o:p></o:p></span></p>
+        <p class=gmail-msoplaintext style='margin:0cm;margin-bottom:.0001pt'><span style='font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497D'><o:p>&nbsp;</o:p></span></p>
+        <p class=gmail-msoplaintext style='margin:0cm;margin-bottom:.0001pt'><span style='font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497D'><o:p>&nbsp;</o:p></span></p>
+        <p class=gmail-msoplaintext style='margin:0cm;margin-bottom:.0001pt'><span style='font-size:11.0pt;font-family:"Calibri","sans-serif"'>Saludos.<o:p></o:p></span></p>
+        <p class=gmail-msoplaintext style='margin:0cm;margin-bottom:.0001pt'><span style='font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497D'>&nbsp;</span><span style='font-size:11.0pt;font-family:"Calibri","sans-serif"'><o:p></o:p></span></p>
+        <p class=gmail-msoplaintext style='margin:0cm;margin-bottom:.0001pt'><span style='font-size:11.0pt;font-family:"Calibri","sans-serif"'>***REMOVED***<o:p></o:p></span></p>
+    </div>
+</body>
+
+</html>

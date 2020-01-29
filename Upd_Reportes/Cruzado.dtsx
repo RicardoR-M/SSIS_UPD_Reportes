@@ -11,8 +11,8 @@
   DTS:LocaleID="10250"
   DTS:ObjectName="Cruzado"
   DTS:PackageType="5"
-  DTS:VersionBuild="58"
-  DTS:VersionGUID="{8487B689-27D0-46F6-B8C2-9543C5D67F52}">
+  DTS:VersionBuild="67"
+  DTS:VersionGUID="{C2CBE4C5-6C79-4C54-8BBD-F6D42D6EBA44}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">6</DTS:Property>
   <DTS:ConnectionManagers>
@@ -39,13 +39,14 @@
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[XL-CZ-ADM-TEMP]"
       DTS:CreationName="EXCEL"
+      DTS:DelayValidation="True"
       DTS:DTSID="{387481E1-9DCA-4D5C-ABCD-C186C2E1E1D9}"
       DTS:ObjectName="XL-CZ-ADM-TEMP">
       <DTS:PropertyExpression
         DTS:Name="ExcelFilePath">@[User::vCzFileName]</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=;Extended Properties=&quot;EXCEL 12.0 XML;HDR=NO&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=;Extended Properties=&quot;Excel 12.0 XML;HDR=NO&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -121,7 +122,7 @@
       DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
       DTS:LocaleID="-1"
       DTS:ObjectName="Cubo HFC"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -137,7 +138,7 @@
       DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
       DTS:LocaleID="-1"
       DTS:ObjectName="Cubo Postpago"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -617,8 +618,7 @@
                           lineageId="Package\Foreach Loop Container\ADM\Origen de Excel.Outputs[Salida de origen de Excel].Columns[F18]" />
                         <inputColumn
                           refId="Package\Foreach Loop Container\ADM\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[F19]"
-                          cachedDataType="wstr"
-                          cachedLength="255"
+                          cachedDataType="nText"
                           cachedName="F19"
                           externalMetadataColumnId="Package\Foreach Loop Container\ADM\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[DESCRIPCIÓN DE LA LLAMADA]"
                           lineageId="Package\Foreach Loop Container\ADM\Origen de Excel.Outputs[Salida de origen de Excel].Columns[F19]" />
@@ -1152,8 +1152,7 @@
                           name="MOTIVO DE LLAMADA" />
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Container\ADM\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[DESCRIPCIÓN DE LA LLAMADA]"
-                          dataType="wstr"
-                          length="255"
+                          dataType="nText"
                           name="DESCRIPCIÓN DE LA LLAMADA" />
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Container\ADM\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[TIPIFICACION  AGENTE SIAC]"
@@ -1813,11 +1812,10 @@
                           truncationRowDisposition="FailComponent" />
                         <outputColumn
                           refId="Package\Foreach Loop Container\ADM\Origen de Excel.Outputs[Salida de origen de Excel].Columns[F19]"
-                          dataType="wstr"
+                          dataType="nText"
                           errorOrTruncationOperation="Conversión"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Foreach Loop Container\ADM\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[F19]"
-                          length="255"
                           lineageId="Package\Foreach Loop Container\ADM\Origen de Excel.Outputs[Salida de origen de Excel].Columns[F19]"
                           name="F19"
                           truncationRowDisposition="FailComponent" />
@@ -3142,8 +3140,7 @@
                           name="F18" />
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Container\ADM\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[F19]"
-                          dataType="wstr"
-                          length="255"
+                          dataType="nText"
                           name="F19" />
                         <externalMetadataColumn
                           refId="Package\Foreach Loop Container\ADM\Origen de Excel.Outputs[Salida de origen de Excel].ExternalColumns[F20]"
@@ -3833,8 +3830,7 @@
                           name="F18" />
                         <outputColumn
                           refId="Package\Foreach Loop Container\ADM\Origen de Excel.Outputs[Salida de error de origen de Excel].Columns[F19]"
-                          dataType="wstr"
-                          length="255"
+                          dataType="nText"
                           lineageId="Package\Foreach Loop Container\ADM\Origen de Excel.Outputs[Salida de error de origen de Excel].Columns[F19]"
                           name="F19" />
                         <outputColumn
@@ -4591,7 +4587,7 @@
           DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExpressionTask.ExpressionTask, Microsoft.SqlServer.ExpressionTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
           DTS:LocaleID="-1"
           DTS:ObjectName="Exp_Adm"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="0">
           <DTS:Variables />
           <DTS:ObjectData>
             <ExpressionTask
@@ -4606,7 +4602,7 @@
           DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExpressionTask.ExpressionTask, Microsoft.SqlServer.ExpressionTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
           DTS:LocaleID="-1"
           DTS:ObjectName="Exp_Post"
-          DTS:ThreadHint="2">
+          DTS:ThreadHint="1">
           <DTS:Variables />
           <DTS:ObjectData>
             <ExpressionTask
@@ -4621,7 +4617,7 @@
           DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExpressionTask.ExpressionTask, Microsoft.SqlServer.ExpressionTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
           DTS:LocaleID="-1"
           DTS:ObjectName="Exp_Tec"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="2">
           <DTS:Variables />
           <DTS:ObjectData>
             <ExpressionTask
@@ -4636,7 +4632,7 @@
           DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExpressionTask.ExpressionTask, Microsoft.SqlServer.ExpressionTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
           DTS:LocaleID="-1"
           DTS:ObjectName="Flag Cubo Adm"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="0">
           <DTS:Variables />
           <DTS:ObjectData>
             <ExpressionTask
@@ -4651,7 +4647,7 @@
           DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExpressionTask.ExpressionTask, Microsoft.SqlServer.ExpressionTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
           DTS:LocaleID="-1"
           DTS:ObjectName="Flag Cubo Post"
-          DTS:ThreadHint="2">
+          DTS:ThreadHint="1">
           <DTS:Variables />
           <DTS:ObjectData>
             <ExpressionTask
@@ -4666,7 +4662,7 @@
           DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExpressionTask.ExpressionTask, Microsoft.SqlServer.ExpressionTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
           DTS:LocaleID="-1"
           DTS:ObjectName="Flag Cubo Tec"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="2">
           <DTS:Variables />
           <DTS:ObjectData>
             <ExpressionTask
@@ -13207,7 +13203,7 @@
           DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
           DTS:LocaleID="-1"
           DTS:ObjectName="TRC_ADM"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="0">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -13223,7 +13219,7 @@
           DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
           DTS:LocaleID="-1"
           DTS:ObjectName="TRC_POST"
-          DTS:ThreadHint="2">
+          DTS:ThreadHint="1">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -13239,7 +13235,7 @@
           DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
           DTS:LocaleID="-1"
           DTS:ObjectName="TRC_TEC"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="2">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -13331,8 +13327,8 @@
       <DTS:ForEachVariableMappings>
         <DTS:ForEachVariableMapping
           DTS:CreationName=""
-          DTS:DTSID="{F3723120-7750-44B6-91BF-0595688B59E1}"
-          DTS:ObjectName="{F3723120-7750-44B6-91BF-0595688B59E1}"
+          DTS:DTSID="{1AFD69AD-9CAF-4CAF-A96C-97E0F3507E91}"
+          DTS:ObjectName="{1AFD69AD-9CAF-4CAF-A96C-97E0F3507E91}"
           DTS:ValueIndex="0"
           DTS:VariableName="User::vCzFileName" />
       </DTS:ForEachVariableMappings>
@@ -13396,6 +13392,18 @@
           Size="124,42"
           Id="Package\Foreach Loop Container\Exp_Tec"
           TopLeft="252,45" />
+        <NodeLayout
+          Size="157,42"
+          Id="Package\Foreach Loop Container\Flag Cubo Adm"
+          TopLeft="437,278" />
+        <NodeLayout
+          Size="157,42"
+          Id="Package\Foreach Loop Container\Flag Cubo Post"
+          TopLeft="24,279" />
+        <NodeLayout
+          Size="153,42"
+          Id="Package\Foreach Loop Container\Flag Cubo Tec"
+          TopLeft="241,277" />
         <NodeLayout
           Size="111,42"
           Id="Package\Foreach Loop Container\POST"
@@ -13554,10 +13562,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="157,42"
-          Id="Package\Foreach Loop Container\Flag Cubo Post"
-          TopLeft="24,279" />
         <EdgeLayout
           Id="Package\Foreach Loop Container.PrecedenceConstraints[Constraint 6]"
           TopLeft="100.5,245">
@@ -13580,14 +13584,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="153,42"
-          Id="Package\Foreach Loop Container\Flag Cubo Tec"
-          TopLeft="241,277" />
-        <NodeLayout
-          Size="157,42"
-          Id="Package\Foreach Loop Container\Flag Cubo Adm"
-          TopLeft="437,278" />
         <EdgeLayout
           Id="Package\Foreach Loop Container.PrecedenceConstraints[Constraint 7]"
           TopLeft="314.5,249">
@@ -13754,9 +13750,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13778,9 +13772,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
